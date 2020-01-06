@@ -3,7 +3,8 @@
     "pages/index",
     "pages/my/index_my",
     "pages/order/index_order",
-    "pages/my/editAddress"
+    "pages/my/editAddress",
+    "pages/order/shanmenshouhuo"
   ],
   "tabBar": {
     "list": [

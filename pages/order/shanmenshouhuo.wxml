@@ -1,0 +1,13 @@
+<!--pages/order/shanmenshouhuo.wxml-->
+
+<view class="container">
+  <view class="HJ-cells">
+      <view class="HJ-cell_title">
+          取货地址
+      </view>
+      <view class="HJ-cell_text">
+        <input placeholder="选择取货地址"></input>
+      </view>
+  </view>
+
+</view>
