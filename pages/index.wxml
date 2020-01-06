@@ -1,0 +1,206 @@
+<!--pages/index.wxml-->
+<view class="head">
+  <view class="head_left">
+    <image class="maodian" src="/image/icon/maodian.png"></image>
+    <text>天津</text>
+  </view>
+  <view class="head_center">天宝回收</view>
+</view>
+
+<view class="container">
+  <view class="banner">
+    <text>这里是一个banner</text>
+  </view>
+
+  <view class="container_green">
+    <view class="container_info_left flex-min">
+      <image src="/image/icon/dianhua.png"></image>
+    </view>
+    <view class="container_info_center flex-1">
+      <view class="center_title">电话收货</view>
+      <view class="center_content">客服可以帮您远程下单</view>
+    </view>
+    <view class="container_info_right flex-min">
+      <image src="/image/icon/youjiantou2.png"></image>
+    </view>
+  </view>
+  <view class="container_blue">
+    <view class="container_info_left flex-min">
+      <image src="/image/icon/shangmen2.png"></image>
+    </view>
+    <view class="container_info_center flex-1">
+      <view class="center_title">上门收货</view>
+      <view class="center_content">小哥直接上门回收</view>
+    </view>
+    <view class="container_info_right flex-min">
+      <image src="/image/icon/youjiantou2.png"></image>
+    </view>
+  </view>
+  <view class="container_yellow">
+    <view class="container_info_left flex-min">
+      <image src="/image/icon/fujin.png"></image>
+    </view>
+    <view class="container_info_center flex-1">
+      <view class="center_title">查找最近会回收点</view>
+      <view class="center_content">找到离您最近的...</view>
+    </view>
+    <view class="container_info_right flex-min">
+      <image src="/image/icon/youjiantou2.png"></image>
+    </view>
+  </view>
+</view>
+
+<view class="container">
+  <view class="list_h">
+    <view class="list_h_tip"></view>
+    <view class="list_h_title">回收流程</view>
+    <!-- <view class="list_h_left">查看更多</view> -->
+  </view>
+  <view class="list_b">
+    <view class="list_b_model">
+      <image class="list_b_img" src="/image/icon/yuyue.png"></image>
+      <text class="list_b_text">一键预约</text>
+    </view>
+    <view class="list_b_step">
+      <image src="/image/icon/youjiantou.png"></image>
+    </view>
+
+    <view class="list_b_model">
+      <image class="list_b_img" src="/image/icon/shangmen.png"></image>
+      <text class="list_b_text">免费上门</text>
+    </view>
+    <view class="list_b_step">
+      <image src="/image/icon/youjiantou.png"></image>
+    </view>
+
+    <view class="list_b_model">
+      <image class="list_b_img" src="/image/icon/lingqian.png"></image>
+      <text class="list_b_text">回收付款</text>
+    </view>
+    <view class="list_b_step">
+      <image src="/image/icon/youjiantou.png"></image>
+    </view>
+
+    <view class="list_b_model">
+      <image class="list_b_img" src="/image/icon/huishou.png"></image>
+      <text class="list_b_text">完成回收</text>
+    </view>
+
+  </view>
+
+
+
+</view>
+<view class="container">
+  <view class="list_h">
+    <view class="list_h_tip"></view>
+    <view class="list_h_title">回收价格</view>
+    <view class="list_h_left">查看更多＞</view>
+  </view>
+
+  <view class="list_b">
+    <scroll-view scroll-x="true" class="scroll-tab-bar">
+
+      <view class="tab-bar-item">
+        <view class="item_img">
+          <image src="/image/icon/zhike.png"></image>
+        </view>
+        <view class="item_title">纸壳（黄板）</view>
+        <view class="item_footer">
+          <text class="item_price">1.5</text>
+          <text class="item_unit">元/公斤</text>
+        </view>
+      </view>
+      <view class="tab-bar-item">
+        <view class="item_img">
+          <image src="/image/icon/xiyiji.png"></image>
+        </view>
+        <view class="item_title">洗衣机</view>
+        <view class="item_footer">
+          <text class="item_price">1.5</text>
+          <text class="item_unit">元/公斤</text>
+        </view>
+      </view>
+
+      <view class="tab-bar-item">
+        <view class="item_img">
+          <image src="/image/icon/kuangquanshui.png"></image>
+        </view>
+        <view class="item_title">饮料瓶</view>
+        <view class="item_footer">
+          <text class="item_price">1.5</text>
+          <text class="item_unit">元/公斤</text>
+        </view>
+      </view>      
+    </scroll-view>
+  </view>
+
+</view>
+
+<view class="container">
+  <view class="list_h">
+    <view class="list_h_tip"></view>
+    <view class="list_h_title">附近代收点</view>
+    <view class="list_h_left">查看更多＞</view>
+  </view>
+
+  <view class="list_b">
+    <view class="list_b_container flex-1">
+      <view class="list_b_item">
+        <view class="list_b_item_children">
+          <view class="list_b_item_children_top">
+            <image src="/image/icon/shangjiantou.png" class="list_b_item_children_icon1"></image>
+            <text class="text-1">国贸大厦</text>
+          </view>
+          <image src="/image/icon/ditu.png" class="list_b_item_children_icon2"></image>
+        </view>
+        <view class="shuxian"></view>
+        <view class="list_b_item_children">
+          <view class="list_b_item_children_bottom">
+            <image src="/image/icon/xiajiantou.png" class="list_b_item_children_icon1"></image>
+            <text class="text-2">回收站-王小哥</text>
+            <view class="list_b_item_zan">
+              <image src="/image/icon/dianzan.png" class="list_b_item_children_icon3"></image>
+              <text>123</text>
+            </view>
+          </view>
+          <text class="text-3">约367.21km</text>
+        </view>
+
+      </view>
+
+
+      <view class="list_b_item">
+        <view class="list_b_item_children">
+          <view class="list_b_item_children_top">
+            <image src="/image/icon/shangjiantou.png" class="list_b_item_children_icon1"></image>
+            <text class="text-1">国贸大厦</text>
+          </view>
+          <image src="/image/icon/ditu.png" class="list_b_item_children_icon2"></image>
+        </view>
+        <view class="shuxian"></view>
+        <view class="list_b_item_children">
+          <view class="list_b_item_children_bottom">
+            <image src="/image/icon/xiajiantou.png" class="list_b_item_children_icon1"></image>
+            <text class="text-2">回收站-王小哥</text>
+            <view class="list_b_item_zan">
+              <image src="/image/icon/dianzan.png" class="list_b_item_children_icon3"></image>
+              <text>123</text>
+            </view>
+          </view>
+          <text class="text-3">约367.21km</text>
+        </view>
+
+      </view>
+
+    </view>
+
+
+
+  </view>
+
+</view>
+
+<view class="container footer">
+  <image src="/image/default/beijing.png"  ></image>
+</view>

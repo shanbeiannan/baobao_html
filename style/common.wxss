@@ -1,0 +1,107 @@
+
+.bg-wite{
+  background-color:#ffffff;
+}
+.flex-min{
+  flex:0.2;
+}
+.flex-half{
+  flex:0.5;
+}
+.flex-1{
+  flex:1;
+}
+.fz-12{
+  font-size:24rpx;
+}
+.fz-14{
+  font-size:28rpx;
+}
+.fz-16{
+  font-size:32rpx;
+}
+.fz-18{
+  font-size:36rpx;
+}
+.fz-20{
+  font-size:40rpx;
+}
+
+.margin-t-10{
+  margin-top:10rpx;
+}
+.margin-t-15{
+  margin-top:15rpx;
+}
+.margin-t-20{
+  margin-top:20rpx;
+}
+.margin-t-25{
+  margin-top:25rpx;
+}
+.margin-t-30{
+  margin-top:30rpx;
+}
+.margin-t-40{
+  margin-top:40rpx;
+}
+
+.margin-b-10{
+  margin-bottom:10rpx;
+}
+.margin-b-15{
+   margin-bottom:15rpx;
+}
+.margin-b-20{
+   margin-bottom:20rpx;
+}
+.margin-b-25{
+  margin-bottom:25rpx;
+}
+.margin-b-30{
+  margin-bottom:30rpx;
+}
+.margin-b-40{
+  margin-bottom:40rpx;
+}
+
+
+
+.margin-l-10{
+  margin-left:10rpx;
+}
+.margin-b-15{
+   margin-left:15rpx;
+}
+.margin-l-20{
+   margin-left:20rpx;
+}
+.margin-l-25{
+  margin-left:25rpx;
+}
+.margin-l-30{
+  margin-left:30rpx;
+}
+.margin-l-40{
+  margin-left:40rpx;
+}
+
+
+.margin-r-10{
+  margin-right:10rpx;
+}
+.margin-r-15{
+   margin-right:15rpx;
+}
+.margin-r-20{
+   margin-right:20rpx;
+}
+.margin-r-25{
+  margin-right:25rpx;
+}
+.margin-r-30{
+  margin-right:30rpx;
+}
+.margin-r-40{
+  margin-right:40rpx;
+}
