@@ -2,7 +2,8 @@
   "pages": [
     "pages/index",
     "pages/my/index_my",
-    "pages/order/index_order"
+    "pages/order/index_order",
+    "pages/my/editAddress"
   ],
   "tabBar": {
     "list": [
@@ -18,7 +19,6 @@
         "iconPath": "image/icon/order.png",
         "selectedIconPath": "image/icon/order_fill.png"
       },
-      
       {
         "pagePath": "pages/my/index_my",
         "text": "我的",
