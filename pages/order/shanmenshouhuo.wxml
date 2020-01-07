@@ -31,6 +31,30 @@
   </view>
 
 
+  <view class="HJ-cells site">
+    <view class="HJ-cell-list">
+      <view class="flex-min">塑料类:</view>
+      <view class="flex-half">矿泉水</view>
+      <view>2kg</view>      
+    </view>
+  </view>
+  
+  <view class="HJ-cells site">
+    <view class="HJ-cell-list">
+      <view class="flex-min">塑料类:</view>
+      <view class="flex-half">矿泉水</view>
+      <view>2kg</view>      
+    </view>
+  </view>
+  <view class="HJ-cells site">
+    <view class="HJ-cell-list">
+      <view class="flex-min">塑料类:</view>
+      <view class="flex-half">矿泉水</view>
+      <view>2kg</view>      
+    </view>
+  </view>
+
+
 
   <view class="HJ-cells border-b-gray">
     <view class="HJ-cell-title">
