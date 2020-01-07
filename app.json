@@ -4,7 +4,8 @@
     "pages/my/index_my",
     "pages/order/index_order",
     "pages/my/editAddress",
-    "pages/order/shanmenshouhuo"
+    "pages/order/shanmenshouhuo",
+    "pages/order/弹出层"
   ],
   "tabBar": {
     "list": [

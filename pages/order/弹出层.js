@@ -1,13 +1,11 @@
-// pages/order/shanmenshouhuo.js
+// pages/order/弹出层.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    istrue:false,
-    left:'左边1',
-    right:'右边4'
+    istrue: false
   },
   openDialog: function () {
     this.setData({
@@ -23,24 +21,9 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    const leftArr = ['左边1', '左边2', '左边3', '左边4', '左边5','左边6'];
-    const rightArr = ['右边1', '右边2', '右边3','右边4','右边5'];
-    this.setData({
-      leftArr: leftArr,
-      rightArr: rightArr
-    })
-  },
-  bindChange:function(e){
-    const val= e.detail.value;
 
-    this.setData({
-        left:this.data.leftArr[val[0]],
-        right:this.data.rightArr[val[1]]
-    })
-
-    console.log(val[0]);
-    console.log(val[1])
   },
+
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
