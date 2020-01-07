@@ -1,13 +1,104 @@
 <!--pages/order/shanmenshouhuo.wxml-->
 
 <view class="container">
-  <view class="HJ-cells">
-      <view class="HJ-cell_title">
-          取货地址
-      </view>
-      <view class="HJ-cell_text">
-        <input placeholder="选择取货地址"></input>
-      </view>
+  <view class="HJ-cells border-b-gray">
+    <view class="HJ-cell-title">
+      取货地址
+    </view>
+    <view class="HJ-cell-text flex-1">
+      <input placeholder="选择取货地址"></input>
+    </view>
+    <view class="HJ-cell-right">
+      <image src="/image/icon/xiangyou.png"></image>
+    </view>
   </view>
 
+
+  <view class="HJ-cells border-b-gray">
+    <view class="HJ-cell-title">
+      添加回收物品
+    </view>
+  </view>
+  <view class="HJ-cells site">
+    <view class="HJ-cell-area">
+    </view>
+    <view class="HJ-cell-add">
+      <view class="HJ-cell-add-icon">
+        <image src="/image/icon/add-lv.png"></image>
+      </view>
+      <text class="HJ-cell-add-text">点击添加</text>
+    </view>
+  </view>
+
+
+
+  <view class="HJ-cells border-b-gray">
+    <view class="HJ-cell-title">
+      预约上门时间
+    </view>
+    <view class="HJ-cell-text flex-1">
+      <input placeholder="点击选择"></input>
+    </view>
+    <view class="HJ-cell-right">
+      <image src="/image/icon/xiangyou.png"></image>
+    </view>
+  </view>
+
+  <view class="HJ-cells border-b-gray">
+    <view class="HJ-cell-title">
+      上传照片
+    </view>
+  </view>
+
+
+  <view class="HJ-cells  border-b-gray" >   
+    <view class="HJ-cells-uploader">
+      <view class="HJ-cell-area-min site">
+        <view class="HJ-cell-add margin-t-60">
+          <view class="HJ-cell-add-icon">
+          <image src="/image/icon/add-hui.png"></image>
+          </view>
+        </view>
+      </view>
+      <view class="HJ-cell-area-min-title">
+        <text>照片（选填）</text>
+      </view>
+    </view>
+  </view>
+
+
+
+  <view class="HJ-cells  border-b-gray">
+    <view class="HJ-cell-area-min site">
+      <view>
+        <image class="delimg" src="/image/icon/close.png" ></image>
+      </view>      
+      <image class="img" src="/image/icon/xiyiji.png"></image>
+    </view>
+    <view class="HJ-cell-area-min site">
+      <view class="HJ-cell-add margin-t-60">
+        <view class="HJ-cell-add-icon">
+        <image src="/image/icon/add-hui.png"></image>
+        </view>
+      </view>
+    </view>
+
+  </view>
+ 
+
+  <view class="HJ-cells">
+    <view class="HJ-cell-title">
+      备注
+    </view>
+  </view>
+  <view class="HJ-cells">
+    <view class="HJ-cell-title">
+      <textarea placeholder="可描述物品状态，干湿程度等" placeholder-class="placholder" />
+    </view>
+  </view>
+
+</view>
+
+<view class="page__bd page__bd_spacing">
+  <button class="weui-btn button" type="primary" style="width:auto;">确定提交</button>
 </view>

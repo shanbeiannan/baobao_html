@@ -40,11 +40,19 @@
   border-radius: 20rpx;
   text-align: center;
   vertical-align: middle;
-  background-color:#6373fd;
   margin:10rpx 0;
 }
+.banner-contair{
+  width:100%;
+  height:100%;
+  border-radius: 20rpx;
+}
 
-
+.banner-contair image{
+  width:100%;
+  height:100%;
+  border-radius: 20rpx; 
+}
 /* 三块 */
 .container_green,.container_blue,.container_yellow{
   margin:10rpx;

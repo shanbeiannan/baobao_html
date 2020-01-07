@@ -1,16 +1,30 @@
 <!--pages/index.wxml-->
-<view class="head">
+<!-- <view class="head">
   <view class="head_left">
     <image class="maodian" src="/image/icon/maodian.png"></image>
     <text>天津</text>
   </view>
   <view class="head_center">天宝回收</view>
-</view>
+</view> -->
 
 <view class="container">
-  <view class="banner">
-    <text>这里是一个banner</text>
-  </view>
+  <swiper class="banner" indicator-dots="true" indicator-active-color="#ffffff">
+    <swiper-item>
+        <view class="banner-contair bg-blue">
+        <image src="/image/default/beijing.png"  ></image>
+        </view>
+     </swiper-item>
+     <swiper-item>
+        <view  class="banner-contair bg-green">
+         <image src="/image/default/beijing.png"  ></image>
+        </view>
+     </swiper-item>
+     <swiper-item>
+        <view  class="banner-contair bg-yellow">
+        <image src="/image/default/beijing.png"  ></image>
+        </view>
+     </swiper-item>
+  </swiper>
 
   <view class="container_green">
     <view class="container_info_left flex-min">
@@ -24,6 +38,7 @@
       <image src="/image/icon/youjiantou2.png"></image>
     </view>
   </view>
+
   <view class="container_blue">
     <view class="container_info_left flex-min">
       <image src="/image/icon/shangmen2.png"></image>
@@ -36,6 +51,7 @@
       <image src="/image/icon/youjiantou2.png"></image>
     </view>
   </view>
+
   <view class="container_yellow">
     <view class="container_info_left flex-min">
       <image src="/image/icon/fujin.png"></image>
