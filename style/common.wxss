@@ -61,6 +61,7 @@
 .margin-t-50 {
   margin-top: 50rpx;
 }
+
 .margin-t-60 {
   margin-top: 60rpx;
 }
@@ -165,12 +166,13 @@
   position: relative;
 }
 
-.button{
-  padding:10px 24px !important;
+.button {
+  padding: 10px 24px !important;
   border-radius: 8px !important;
 }
-.placholder{
-  font-size:30rpx;
+
+.placholder {
+  font-size: 30rpx;
   /* font-weight: 0; */
 }
 
@@ -183,6 +185,37 @@
 }
 
 /**from**/
+
+.gallery {
+  /*margin-bottom: 100rpx;*/
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+/*每张图片所占容器*/
+
+.item {
+  position: relative;
+  margin: 5px;
+}
+
+/*删除按钮*/
+
+/* .delete {
+  position: absolute;
+  height: 20px;
+  bottom: 0;
+  width: 100%;
+  background: #ccc;
+  opacity: 0.8;
+}
+
+.delete image {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+} */
 
 .HJ-cells {
   font-family: PingFang-SC-Bold;
@@ -229,17 +262,16 @@
   border-radius: 20rpx;
 }
 
-.HJ-cell-list{
-  width:100%;
-  display:flex;
+.HJ-cell-list {
+  width: 100%;
+  display: flex;
   flex-direction: flex;
-  background-color:#f8f8f8;
+  background-color: #f8f8f8;
   padding: 20rpx;
-  font-size:30rpx;
-  color:#666666;
-  border-radius:20rpx;
+  font-size: 30rpx;
+  color: #666;
+  border-radius: 20rpx;
 }
-
 
 .HJ-cell-add {
   position: absolute;
@@ -250,21 +282,19 @@
 }
 
 .HJ-cell-add-icon {
-
   border-radius: 50%;
   line-height: 50rpx;
   width: 70rpx;
   height: 70rpx;
   align-content: center;
-  text-align: center; 
+  text-align: center;
   font-weight: bolder;
 }
 
 .HJ-cell-add-icon image {
-   width: 70rpx;
-   height: 70rpx;
+  width: 70rpx;
+  height: 70rpx;
 }
-
 
 .HJ-cell-add-text {
   margin-top: 20rpx;
@@ -274,26 +304,27 @@
   font-size: 30rpx;
 }
 
-.HJ-cells-uploader{
-  display:flex;
+.HJ-cells-uploader {
+  display: flex;
   flex-direction: column;
   justify-content: center;
 }
-.HJ-cell-area-min-title{
-  margin:20rpx 0 0 20rpx;
-  color:#999999;
-  text-align: center;
-  width:100%;
+
+.HJ-cell-area-min-title {
+  margin: 20rpx 0 0 20rpx;
+  color: #999;  
+  width: 100%;
 }
+
 .HJ-cell-area-min {
   background-color: #f8f8f8;
   height: 200rpx;
   width: 200rpx;
   border-radius: 20rpx;
-  margin: auto 20rpx;
+  margin: 10rpx 20rpx;
 }
 
-.HJ-cell-area-min image.img {
+.img {
   height: 200rpx;
   width: 200rpx;
 }
