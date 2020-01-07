@@ -5,9 +5,18 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    istrue:false
   },
-
+  openDialog: function () {
+    this.setData({
+      istrue: true
+    })
+  },
+  closeDialog: function () {
+    this.setData({
+      istrue: false
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */
