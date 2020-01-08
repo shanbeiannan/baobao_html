@@ -1,0 +1,93 @@
+<!--pages/order/wupinleixing.wxml-->
+<view class="container margin-none">
+  <view class="HJ-container ">
+    <view class="HJ-list-left">
+      <view class="{{isShowChild == 0 ?'active':''}}" bindtap="showClassChild" data-index="0">纸类</view>
+      <view class="{{isShowChild == 1 ?'active':''}}" bindtap="showClassChild" data-index="1">塑料</view>
+      <view class="{{isShowChild == 2 ?'active':''}}" bindtap="showClassChild" data-index="2">有色金属</view>
+      <view class="{{isShowChild == 3 ?'active':''}}" bindtap="showClassChild" data-index="3">废钢</view>
+      <view class="{{isShowChild == 4 ?'active':''}}" bindtap="showClassChild" data-index="4">玻璃</view>
+      <view class="{{isShowChild == 5 ?'active':''}}" bindtap="showClassChild" data-index="5">家电</view>
+    </view>
+    <view class="HJ-list-right flex-1">
+      <view class="HJ-selected border-b-gray">
+        <view class="margin-b-20">您已选择：</view>
+        <view class="HJ-cells site padding-t-none">
+          <view class="HJ-cell-list">
+            <view class="flex-half">塑料类:</view>
+            <view class="flex-1">
+              <text class="margin-r-40">矿泉水矿泉</text>
+              <text>2kg</text>
+            </view>
+          </view>
+          <image class="delimg-fr" src="/image/icon/shanchu.png"></image>
+        </view>
+
+        <view class="HJ-cells site padding-t-none">
+          <view class="HJ-cell-list">
+            <view class="flex-half">塑料类:</view>
+            <view class="flex-1">
+              <text class="margin-r-40">矿泉水矿泉</text>
+              <text>2kg</text>
+            </view>
+          </view>
+          <image class="delimg-fr" src="/image/icon/shanchu.png"></image>
+        </view>
+
+        <view class="HJ-cells site padding-t-none">
+          <view class="HJ-cell-list">
+            <view class="flex-half">塑料类:</view>
+            <view class="flex-1">
+              <text class="margin-r-40">矿泉水矿泉</text>
+              <text>2kg</text>
+            </view>
+          </view>
+          <image class="delimg-fr" src="/image/icon/shanchu.png"></image>
+        </view>
+      </view>
+
+      <view class="HJ-product">
+        <view class="HJ-product-list">
+          <view class="HJ-product-text active">
+            纸壳（通货）
+            <view class="content-tip"></view>
+            <image class="content-tip-img" src="/image/icon/duigou.png"></image>
+          </view>
+          <view class="HJ-product-dec">
+            <input placeholder="输入重量" class="flex-half"></input>
+            <text>kg</text>
+          </view>
+        </view>
+
+        <view class="HJ-product-list">
+          <view class="HJ-product-text active">
+            易拉罐/杂铝
+            <view class="content-tip"></view>
+            <image class="content-tip-img" src="/image/icon/duigou.png"></image>
+          </view>
+          <view class="HJ-product-dec">
+            <input placeholder="输入重量" class="flex-half"></input>
+            <text>kg</text>
+          </view>
+        </view>
+
+        <view class="HJ-product-list">
+          <view class="HJ-product-text">
+            白色透明丙烯筐
+            <view class="content-tip"></view>
+            <image class="content-tip-img" src="/image/icon/duigou.png"></image>
+          </view>
+          <view class="HJ-product-dec">
+            <input placeholder="输入重量" class="flex-half"></input>
+            <text>kg</text>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <view class="HJ-btn">
+    确定选择
+  </view>
+
+</view>

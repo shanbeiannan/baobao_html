@@ -1,7 +1,7 @@
 /* pages/order/orderdetail.wxss */
 .car-info{
   width:100%;
-  border-bottom:20rpx #eee solid;
+  border-bottom:20rpx #f8f8f8 solid;
 }
 
 .car-info-list{
@@ -24,3 +24,8 @@
   font-size:32rpx;
   color:#999;
 }
+
+.padding-b-self{
+  padding-bottom:0;
+}
+

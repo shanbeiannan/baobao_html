@@ -39,21 +39,21 @@
       回收物品
     </view>
   </view> 
-  <view class="HJ-cells site padding-none">
+  <view class="HJ-cells site padding-b-self">
     <view class="HJ-cell-list">
       <view class="flex-min">塑料类:</view>
       <view class="flex-1"><text class="margin-r-40">矿泉水矿泉</text> <text>2kg</text></view>     
     </view>    
   </view>
 
-  <view class="HJ-cells site padding-none">
+  <view class="HJ-cells site padding-b-self">
     <view class="HJ-cell-list">
       <view class="flex-min">塑料类:</view>
       <view class="flex-1"><text class="margin-r-40">矿泉水矿泉水矿泉水</text> <text>2kg</text></view>     
     </view>    
   </view>
 
-  <view class="HJ-cells site padding-none">
+  <view class="HJ-cells site padding-b-self">
     <view class="HJ-cell-list">
       <view class="flex-min">塑料类:</view>
       <view class="flex-1"><text class="margin-r-40">矿泉水</text> <text>2kg</text></view>     

@@ -6,7 +6,8 @@
     "pages/my/editAddress",
     "pages/order/shanmenshouhuo",
     "pages/order/弹出层",
-    "pages/order/orderdetail"
+    "pages/order/orderdetail",
+    "pages/order/wupinleixing"
   ],
   "tabBar": {
     "list": [
