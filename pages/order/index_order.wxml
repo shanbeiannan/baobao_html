@@ -1,2 +1,7 @@
 <!--pages/order/index_order.wxml-->
 <text>pages/order/index_order.wxml</text>
+<navigator url="/pages/order/shanmenshouhuo">上门收货</navigator>
+
+<navigator url="/pages/order/orderdetail">订单详情</navigator>
+
+<navigator url="/pages/order/wupinleixing">物品类型选择</navigator>

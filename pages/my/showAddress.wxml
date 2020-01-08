@@ -1,0 +1,49 @@
+<!--pages/my/showAddress.wxml-->
+<view class="container">
+  
+  <view class="HJ-cells border-b-gray border-t-gray">
+    <view class="HJ-cell-title">
+      取货地址
+    </view>
+    <view class="HJ-cell-text flex-1">
+      <view class="HJ-inputView">天津市河西区</view>
+    </view>
+    <view class="HJ-cell-right">
+      <image src="/image/icon/maodian-lv.png"></image>
+    </view>
+  </view>
+
+<view class="HJ-cells border-b-gray">
+    <view class="HJ-cell-title">
+      门牌号
+    </view>
+    <view class="HJ-cell-text flex-1">
+      <view class="HJ-inputView">南京路39号凯德国贸B2803</view>
+    </view>
+    <!-- <view class="HJ-cell-right">
+      <image src="/image/icon/maodian-lv.png"></image>
+    </view> -->
+  </view>
+
+  <view class="HJ-cells border-b-gray">
+    <view class="HJ-cell-title">
+     联系人
+    </view>
+    <view class="HJ-cell-text flex-1">
+      <view  class="HJ-inputView">飞跃</view>
+    </view>    
+  </view>
+
+  <view class="HJ-cells border-b-gray">
+    <view class="HJ-cell-title">
+     联系电话
+    </view>
+    <view class="HJ-cell-text flex-1">
+      <view  class="HJ-inputView">15002285294</view>
+    </view>    
+  </view>
+  
+</view>
+<!-- <view class="page__bd page__bd_spacing">
+  <button class="weui-btn button" type="primary" style="width:auto;">再次编辑</button>
+</view> -->

@@ -213,7 +213,7 @@
   right: -10rpx;
 }
 /**from**/
-
+/**九宫格*/
 .gallery {
   /*margin-bottom: 100rpx;*/
   display: flex;
@@ -249,7 +249,7 @@
   font-family: PingFang-SC-Bold;
   width: 90%;
   display: inline-flex;
-  padding: 25rpx 0;
+  padding: 32rpx 0;
   align-items: flex-start;
   font-size: 32rpx;
 }

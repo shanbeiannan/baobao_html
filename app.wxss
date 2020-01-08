@@ -14,7 +14,7 @@
 .dialog-flow{
   overflow:hiddern !important;
 }
-::-webkit-scrollbar { 
+::-webkit-scrollbar { /**隐藏滚动条*/
 width: 0; 
 height: 0; 
 color: transparent; 
@@ -32,7 +32,7 @@ color: transparent;
 page{
     background-color: #ffffff;
     font-size: 16px;
-    font-family: -apple-system-font,Helvetica Neue,Helvetica,sans-serif,PingFang-SC-Heavy;
+    font-family: -apple-system-font,Helvetica Neue,Helvetica,sans-serif;
 }
 textarea{
   height:150rpx;

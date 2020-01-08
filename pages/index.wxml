@@ -43,10 +43,10 @@
     <view class="container_info_left flex-min">
       <image src="/image/icon/shangmen2.png"></image>
     </view>
-    <view class="container_info_center flex-1">
+    <navigator url="/pages/order/shanmenshouhuo" class="container_info_center flex-1"> 
       <view class="center_title">上门收货</view>
       <view class="center_content">小哥直接上门回收</view>
-    </view>
+    </navigator>
     <view class="container_info_right flex-min">
       <image src="/image/icon/youjiantou2.png"></image>
     </view>

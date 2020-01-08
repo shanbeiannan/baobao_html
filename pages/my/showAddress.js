@@ -1,41 +1,20 @@
-// pages/order/wupinleixing.js
+// pages/my/showAddress.js
 Page({
 
   /**
    * 页面的初始数据
    */
-  data: {    
-    isShowChild:0,
+  data: {
+
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    var $systemHeight = 0;
-      wx.getSystemInfo({
-        complete: (res) => {},
-        fail: (res) => {},
-        success: (result) => {
-          console.log(result.windowHeight)
-          $systemHeight = result.windowHeight;
-          this.setData({
-            systemHeight:$systemHeight,
-            showSelectHeight:$systemHeight*0.3,
-            showProductHeight:$systemHeight*0.7
-          })
-        },
-      })
+
   },
-  showClassChild:function(e){
-    var $mainClass = e.currentTarget.dataset.index;
-    this.setData({
-      isShowChild:$mainClass
-    }) 
-  },
-  selectProduct:function(e){
-    
-  },
+
   /**
    * 生命周期函数--监听页面初次渲染完成
    */

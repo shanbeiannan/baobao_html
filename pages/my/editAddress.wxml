@@ -1,48 +1,51 @@
 <!--pages/my/editAddress.wxml-->
 
+<view class="container">
 
+	<view class="HJ-cells border-b-gray border-t-gray">
+		<view class="HJ-cell-title">
+			取货地址
+		</view>
+		<view class="HJ-cell-text flex-1">
+			<view class="HJ-inputView">点击选择</view>
+		</view>
+		<view class="HJ-cell-right">
+			<image src="/image/icon/maodian-lv.png"></image>
+		</view>
+	</view>
 
+	<view class="HJ-cells border-b-gray">
+		<view class="HJ-cell-title">
+			门牌号
+		</view>
+		<view class="HJ-cell-text flex-1">
+			<input placeholder="门牌号"></input>
+		</view>
+		<!-- <view class="HJ-cell-right">
+      <image src="/image/icon/maodian-lv.png"></image>
+    </view> -->
+	</view>
 
-<view class="page__bd page__bd_spacing">
+	<view class="HJ-cells border-b-gray">
+		<view class="HJ-cell-title">
+			联系人
+		</view>
+		<view class="HJ-cell-text flex-1">
+			<input placeholder="联系人"></input>
+		</view>
+	</view>
 
-  <view class="weui-cells weui-cells_after-title">
-    <view class="weui-cell">
-      <view class="weui-cell__hd">
-        <view class="weui-label  fz-14">取货地址</view>
-      </view>
-      <view class="weui-cell__bd">
-        <input class="weui-input fz-14" placeholder="请选择所属区域" />
-      </view>
-    </view>
-    <view class="weui-cell weui-cell_warn">
-      <view class="weui-cell__hd">
-        <view class="weui-label  fz-14">详细地址</view>
-      </view>
-      <view class="weui-cell__bd">
-        <input class="weui-input  fz-14" placeholder="请输入详细地址" />
-      </view>
-      <view class="weui-cell__ft ">
-        <icon type="warn" size="23" color="#E64340"></icon>
-      </view>
-    </view>
-    <view class="weui-cell ">
-      <view class="weui-cell__hd">
-        <view class="weui-label  fz-14">联系人</view>
-      </view>
-      <view class="weui-cell__bd">
-        <input class="weui-input  fz-14" placeholder="请输入联系人" />
-      </view>
-    </view>
-    <view class="weui-cell  ">
-      <view class="weui-cell__hd">
-        <view class="weui-label fz-14">手机号</view>
-      </view>
-      <view class="weui-cell__bd">
-        <input class="weui-input fz-14" placeholder="请输入手机号" />
-      </view>
-    </view>
-  </view>
+	<view class="HJ-cells border-b-gray">
+		<view class="HJ-cell-title">
+			联系电话
+		</view>
+		<view class="HJ-cell-text flex-1">
+			<input placeholder="联系电话"></input>
+		</view>
+	</view>
+
 </view>
-<view class="page__bd page__bd_spacing">
-  <button class="weui-btn" type="primary" style="width:auto;">保存</button>
+
+<view class="page__bd page__bd_spacing margin-t-40">
+	<button class="weui-btn" type="primary" style="width:auto;">保存地址</button>
 </view>
