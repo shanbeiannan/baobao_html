@@ -2,6 +2,10 @@
   background-color: #fff;
 }
 
+.bg-gray {
+  background-color: #eee;
+}
+
 .flex-min {
   flex: 0.2;
 }
@@ -183,7 +187,13 @@
   top: -10rpx;
   left: -10rpx;
 }
-
+.delimg-fr {
+  width: 40rpx;
+  height: 40rpx;
+  position: absolute;
+  top: 15rpx;
+  right: -10rpx;
+}
 /**from**/
 
 .gallery {
@@ -240,6 +250,13 @@
   font-weight: bolder;
 }
 
+.HJ-cell-dec{
+  width:100%;
+  padding:20rpx;
+  font-size:32rpx;
+  border-radius:20rpx;
+}
+
 .HJ-cell-text {
   text-align: right;
   margin-right: 20rpx;
@@ -254,7 +271,10 @@
   width: 40rpx;
   height: 40rpx;
 }
-
+.HJ-inputView{/*模仿inputplaceholder*/
+  font-size:32rpx;
+  color:#999;
+}
 .HJ-cell-area {
   background-color: #f8f8f8;
   height: 300rpx;

@@ -1,0 +1,116 @@
+<!--pages/order/orderdetail.wxml-->
+<view class="container">
+  <view class="car-info">
+    <view class="car-info-list" >
+      <view class="margin-r-20"><image src="/image/icon/shangmen-lv.png"></image></view>
+      <view class="margin-r-20 car-info-list-text">回收车:</view>
+      <text>津F12345</text>
+    </view>
+
+    <view class="car-info-list" >
+      <view class="margin-r-20"><image src="/image/icon/lianxiren.png"></image></view>
+      <view class="margin-r-20 car-info-list-text">联系人:</view>
+      <text>宝宝</text>
+    </view>
+
+    <view class="car-info-list" >
+      <view class="margin-r-20"><image src="/image/icon/dianhua-lv-xi.png"></image></view>
+      <view class="margin-r-20 car-info-list-text">联系电话:</view>
+      <text>15002285222</text>
+    </view>
+
+  </view>
+
+  <view class="HJ-cells border-b-gray">
+    <view class="HJ-cell-title">
+      取货地址
+    </view>
+    <view class="HJ-cell-text flex-1">
+      <view class="HJ-inputView">天津市河西区南京路39号凯德国贸B2803</view>
+    </view>
+    <view class="HJ-cell-right">
+      <image src="/image/icon/maodian-lv.png"></image>
+    </view>
+  </view>
+
+
+  <view class="HJ-cells border-b-gray">
+    <view class="HJ-cell-title">
+      回收物品
+    </view>
+  </view> 
+  <view class="HJ-cells site padding-none">
+    <view class="HJ-cell-list">
+      <view class="flex-min">塑料类:</view>
+      <view class="flex-1"><text class="margin-r-40">矿泉水矿泉</text> <text>2kg</text></view>     
+    </view>    
+  </view>
+
+  <view class="HJ-cells site padding-none">
+    <view class="HJ-cell-list">
+      <view class="flex-min">塑料类:</view>
+      <view class="flex-1"><text class="margin-r-40">矿泉水矿泉水矿泉水</text> <text>2kg</text></view>     
+    </view>    
+  </view>
+
+  <view class="HJ-cells site padding-none">
+    <view class="HJ-cell-list">
+      <view class="flex-min">塑料类:</view>
+      <view class="flex-1"><text class="margin-r-40">矿泉水</text> <text>2kg</text></view>     
+    </view>    
+  </view>
+
+
+  <view class="HJ-cells border-b-gray">
+    <view class="HJ-cell-title">
+     上门日期
+    </view>
+    <view class="HJ-cell-text flex-1">
+      <view  class="HJ-inputView">2020.02.07 17:30~19:30</view>
+    </view>    
+  </view>
+
+  <view class="HJ-cells border-b-gray">
+    <view class="HJ-cell-title">
+      图片
+    </view>
+  </view>
+  
+  <view class="HJ-cells  border-b-gray">
+    <view class="gallery">
+      <view class="item">       
+        <image class="img" src="/image/icon/xiyiji.png"></image>
+      </view>
+
+      <view class="item">        
+        <image class="img" src="/image/icon/xiyiji.png"></image>
+      </view>      
+
+       <view class="item">
+        
+        <image class="img" src="/image/icon/xiyiji.png"></image>
+      </view>      
+
+       <view class="item">
+        
+        <image class="img" src="/image/icon/xiyiji.png"></image>
+      </view>      
+    </view>
+  </view>
+
+
+  <view class="HJ-cells" wx:if="{{!istrue}}">
+    <view class="HJ-cell-title">
+      备注
+    </view>
+  </view>
+  <view class="HJ-cells" wx:if="{{!istrue}}">
+    <view class="HJ-cell-dec bg-gray">
+      填写的备注信息在这里展示填写的备注信息在这里展示填写的备注信息在这里展示填写的备注信息在这里展示
+    </view>
+  </view>
+
+</view>
+<view class="page__bd page__bd_spacing">
+  <button class="weui-btn button" type="primary" style="width:auto;">再次编辑</button>
+</view>

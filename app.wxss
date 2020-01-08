@@ -9,6 +9,10 @@
   justify-content: space-between; 
   box-sizing: border-box;
   margin-top:20rpx;
+  overflow:auto;
+}
+.dialog-flow{
+  overflow:hiddern !important;
 }
 ::-webkit-scrollbar { 
 width: 0; 

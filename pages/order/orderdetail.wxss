@@ -1,0 +1,21 @@
+/* pages/order/orderdetail.wxss */
+.car-info{
+  width:100%;
+  border-bottom:20rpx #eee solid;
+}
+
+.car-info-list{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  padding:10rpx 36rpx;
+}
+
+.car-info-list image{
+  width:40rpx;
+  height:40rpx;
+}
+.car-info-list-text{
+  font-weight: bold;
+  font-size:28rpx;
+}
