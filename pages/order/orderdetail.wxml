@@ -4,19 +4,19 @@
     <view class="car-info-list" >
       <view class="margin-r-20"><image src="/image/icon/shangmen-lv.png"></image></view>
       <view class="margin-r-20 car-info-list-text">回收车:</view>
-      <text>津F12345</text>
+      <text class="car-info-list-right">津F12345</text>
     </view>
 
     <view class="car-info-list" >
       <view class="margin-r-20"><image src="/image/icon/lianxiren.png"></image></view>
       <view class="margin-r-20 car-info-list-text">联系人:</view>
-      <text>宝宝</text>
+      <text class="car-info-list-right">宝宝</text>
     </view>
 
     <view class="car-info-list" >
       <view class="margin-r-20"><image src="/image/icon/dianhua-lv-xi.png"></image></view>
       <view class="margin-r-20 car-info-list-text">联系电话:</view>
-      <text>15002285222</text>
+      <text class="car-info-list-right">15002285222</text>
     </view>
 
   </view>

@@ -12,10 +12,15 @@
 }
 
 .car-info-list image{
-  width:40rpx;
-  height:40rpx;
+  width:60rpx;
+  height:60rpx;
 }
 .car-info-list-text{
   font-weight: bold;
-  font-size:28rpx;
+  font-size:32rpx;
+}
+
+.car-info-list-right{
+  font-size:32rpx;
+  color:#999;
 }
