@@ -14,7 +14,7 @@ page {
 
 .HJ-list-left view {
   padding: 25rpx;
-  font-size:32rpx;
+  font-size:24rpx;
 }
 
 .HJ-list-left view.active {
@@ -45,7 +45,7 @@ page {
 .HJ-product-text {
   position:relative;
   text-align: center;
-  font-size: 28rpx;
+  font-size: 24rpx;
   padding: 15rpx 20rpx;
   color: #333;
   background-color: #e5e5e5;
@@ -95,13 +95,13 @@ page {
   border-radius:10rpx;
   margin-right:10rpx;
   color:#21c179;
-  font-size:32rpx;
+  font-size:24rpx;
 }
 .HJ-product-dec text{
-  font-size:32rpx;
+  font-size:24rpx;
 }
 .HJ-product-dec .input-placeholder{
-  font-size:28rpx;
+  font-size:24rpx;
 }
 
 .HJ-btn{

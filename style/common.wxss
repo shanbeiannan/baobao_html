@@ -194,22 +194,22 @@
 }
 
 .placholder {
-  font-size: 30rpx;
+  font-size: 24rpx;
   /* font-weight: 0; */
 }
 
 .delimg {
-  width: 40rpx;
-  height: 40rpx;
+  width: 30rpx;
+  height: 30rpx;
   position: absolute;
   top: -10rpx;
   left: -10rpx;
 }
 .delimg-fr {
-  width: 40rpx;
-  height: 40rpx;
+  width: 30rpx;
+  height: 30rpx;
   position: absolute;
-  top: 15rpx;
+  top: 20rpx;
   right: -10rpx;
 }
 /**from**/
@@ -246,16 +246,14 @@
 } */
 
 .HJ-cells {
-  font-family: PingFang-SC-Bold;
-  width: 90%;
+  width: 85%;
   display: inline-flex;
-  padding: 32rpx 0;
+  padding: 30rpx 0;
   align-items: flex-start;
-  font-size: 32rpx;
+  font-size: 24rpx;
 }
 
 .HJ-cells-center {
-  font-family: PingFang-SC-Bold;
   padding: 20rpx 0;
   display: inline-flex;
   align-items: center;
@@ -271,7 +269,7 @@
 .HJ-cell-dec{
   width:100%;
   padding:20rpx;
-  font-size:32rpx;
+  font-size:24rpx;
   color:#666;
   border-radius:20rpx;
 }
@@ -282,16 +280,17 @@
 }
 
 .HJ-cell-right {
-  width: 40rpx;
-  height: 40rpx;
+  width: 30rpx;
+  height: 30rpx;
 }
 
 .HJ-cell-right image {
-  width: 40rpx;
-  height: 40rpx;
+  width: 28rpx;
+  height: 28rpx;
+  vertical-align: center;
 }
 .HJ-inputView{/*模仿inputplaceholder*/
-  font-size:32rpx;
+  font-size:24rpx;
   color:#999;
 }
 .HJ-cell-area {
@@ -307,7 +306,7 @@
   flex-direction: flex;
   background-color: #f8f8f8;
   padding: 20rpx;
-  font-size: 30rpx;
+  font-size: 24rpx;
   color: #666;
   border-radius: 20rpx;
 }
@@ -317,30 +316,32 @@
   width: 100%;
   display: flex;
   flex-direction: column;
+  align-self: center;
+  text-align: center;
   align-items: center;
 }
 
 .HJ-cell-add-icon {
   border-radius: 50%;
   line-height: 50rpx;
-  width: 70rpx;
-  height: 70rpx;
-  align-content: center;
+  width: 60rpx;
+  height: 60rpx;
+  align-items: center;
   text-align: center;
   font-weight: bolder;
 }
 
 .HJ-cell-add-icon image {
-  width: 70rpx;
-  height: 70rpx;
+  width: 60rpx;
+  height: 60rpx;
 }
 
 .HJ-cell-add-text {
-  margin-top: 20rpx;
+  margin-top: 10rpx;
   width: 100%;
   text-align: center;
   color: #999;
-  font-size: 30rpx;
+  font-size: 24rpx;
 }
 
 .HJ-cells-uploader {

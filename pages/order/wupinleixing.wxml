@@ -11,7 +11,7 @@
 		</view>
 		<view class="HJ-list-right flex-1">
 			<view class="HJ-selected border-b-gray">
-				<view class="margin-b-20 fz-16">您已选择：</view>
+				<view class="margin-b-20 fz-12">您已选择：</view>
 				<view style="height:{{showSelectHeight}}px;overflow:auto;">
 					<view class="HJ-cells site padding-t-none">
 						<view class="HJ-cell-list">
@@ -73,7 +73,7 @@
 				</view>
 
 				<view class="HJ-product-list">
-					<view class="HJ-product-text active">
+					<view class="HJ-product-text active" >
 						易拉罐/杂铝
 						<view class="content-tip"></view>
 						<image class="content-tip-img" src="/image/icon/duigou.png"></image>
