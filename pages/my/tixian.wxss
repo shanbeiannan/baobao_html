@@ -1,0 +1,41 @@
+/* pages/my/tixian.wxss */
+.HJ-container-money{
+  background-color:#f8f8f8;
+  width:90%;
+  padding:40rpx 25rpx;
+  font-size:32rpx;
+  border-radius:25rpx;
+}
+.HJ-containr-title{
+    margin-bottom:20rpx;
+}
+
+.HJ-money-input{
+  display:flex;
+  align-items: center;
+}
+
+.HJ-money-input text{
+  font-size:48rpx;
+  font-weight: bold;
+}
+
+.HJ-money-input input{
+    font-size:48rpx;
+}
+
+.HJ-money-mark{
+  color:#999;
+  display:flex;
+  margin-top: 25rpx;
+}
+
+.HJ-money-mark .left-view{
+  margin-right:20rpx;
+  
+}
+
+.HJ-money-mark .right-view{
+  color:#21c179;
+  flex:1
+}

@@ -9,7 +9,8 @@
     "pages/order/orderdetail",
     "pages/order/wupinleixing",
     "pages/my/showAddress",
-    "pages/my/shezhi"
+    "pages/my/shezhi",
+    "pages/my/tixian"
   ],
   "tabBar": {
     "list": [

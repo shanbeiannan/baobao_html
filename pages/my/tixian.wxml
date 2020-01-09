@@ -1,0 +1,21 @@
+<!--pages/my/tixian.wxml-->
+
+<view class="container">
+  <view class="HJ-container-money">
+    <view class="HJ-containr-title">
+    提现金额
+    </view>
+  <view class="HJ-money-input border-b-gray">
+    <text>￥</text>
+    <input></input>
+  </view>
+  <view class="HJ-money-mark">
+    <view class="left-view">当前零钱余额7.63元</view>
+    <view class="right-view">全部提现</view>
+  </view>
+  </view>
+
+</view>
+<view class="page__bd page__bd_spacing margin-t-40">
+	<button class="weui-btn" type="primary" style="width:auto;">确认提现</button>
+</view>

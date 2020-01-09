@@ -81,6 +81,20 @@
 					"id": -1,
 					"name": "物品类型",
 					"pathName": "pages/order/wupinleixing",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "我的",
+					"pathName": "pages/my/index_my",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "提现",
+					"pathName": "pages/my/tixian",
 					"scene": null
 				}
 			]
