@@ -2,3 +2,5 @@
 <text>pages/my/index_my.wxml</text>
 <navigator url="/pages/my/editAddress">地址编辑</navigator>
 <navigator url="/pages/my/showAddress">地址展示</navigator>
+
+<navigator url="/pages/my/shezhi">设置</navigator>

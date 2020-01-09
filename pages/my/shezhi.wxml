@@ -1,0 +1,28 @@
+<!--pages/my/设置.wxml-->
+
+<view class="container">
+
+
+	<view class="HJ-cells border-b-gray">
+		<view class="HJ-cell-title">
+			设置
+		</view>
+		<view class="HJ-cell-text flex-1">
+			<!-- <input placeholder="门牌号"></input> -->
+		</view>
+		<view class="HJ-cell-right">
+      <image src="/image/icon/xiangyou.png"></image>
+    </view>
+	</view>
+
+
+
+	<view class="HJ-cells border-b-gray">
+		<view class="HJ-cell-title">
+			安全退出
+		</view>
+	
+	</view>
+
+</view>
+
