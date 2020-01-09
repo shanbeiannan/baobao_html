@@ -1,0 +1,66 @@
+<!--pages/my/my.wxml-->
+
+
+<view class="container">
+	<view class="HJ-my-bg">
+		<view class="HJ-my-hd">
+			<view class="HJ-my-hd-left">
+				<view class="HJ-my-hd-photo">
+					<image src="/image/default/man.png"></image>
+				</view>
+				<view class="HJ-my-hd-info">
+					<text class="HJ-my-hd-name">周杰伦</text>
+					<text>天津</text>
+				</view>
+			</view>
+			<view class="HJ-my-hd-right">
+				<view>
+					<image src="/image/icon/shezhi.png"></image>
+				</view>
+			</view>
+
+		</view>
+
+		<view class="HJ-my-bd">
+			<view class="HJ-my-bd-head border-b-gray">
+				<view class="HJ-my-bd-head-left">
+					<view class="HJ-my-bd-head-money">
+						<text class="money">888.88</text>
+						<text class="unite">元</text>
+					</view>
+					<view class="HJ-my-bd-head-mark">剩余金额</view>
+				</view>
+				<view class="HJ-my-bd-head-right">
+					<view class="HJ-btn">我要提现</view>
+				</view>
+
+
+			</view>
+
+			<view class="HJ-my-bd-body">
+				<view class="HJ-my-bd-body-title">
+        记账二维码：
+				</view>
+				<view class="HJ-qrimg">
+				   <image src="" alt="二维码"></image>
+				</view>
+				<view class="HJ-my-bd-body-foot">
+					<view>
+					<image src="/image/icon/bangzhu.png"></image>					
+					<text>帮助中心</text>
+					</view>
+				</view>
+			</view>
+
+
+
+
+		</view>
+
+
+	</view>
+</view>
+
+<view class="container footer">
+	<image src="/image/default/beijing.png"></image>
+</view>

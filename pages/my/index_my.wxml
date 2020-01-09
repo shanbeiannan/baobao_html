@@ -6,3 +6,5 @@
 <navigator url="/pages/my/shezhi">设置</navigator>
 
 <navigator url="/pages/my/tixian">提现</navigator>
+
+<navigator url="/pages/my/my">我的</navigator>

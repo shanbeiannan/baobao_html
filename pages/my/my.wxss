@@ -1,0 +1,130 @@
+/* pages/my/my.wxss */
+page {
+  background-color: #21c179;
+}
+
+.HJ-my-bg {
+  padding: 25rpx 0;
+  width: 90%;
+}
+
+.HJ-my-hd {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.HJ-my-hd-left {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.HJ-my-hd-photo {
+  margin-right: 20rpx;
+}
+
+.HJ-my-hd-photo image {
+  width: 120rpx;
+  height: 120rpx;
+}
+
+.HJ-my-hd-info {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+}
+
+.HJ-my-hd-name {
+  font-size:36rpx;
+  font-weight: bold;
+}
+
+.HJ-my-hd-right image {
+  width: 40rpx;
+  height: 40rpx;
+}
+
+.HJ-my-bd{
+  margin-top:25rpx;
+  background-color:#fff;
+  border-radius: 25rpx;
+  padding:25rpx 0 ;
+}
+
+.HJ-my-bd-head{
+  display:flex;
+  align-items: center;
+  padding:0 25rpx 25rpx;
+}
+
+.HJ-my-bd-head-left{
+  flex:1;
+  display:flex;
+  flex-direction: column;
+}
+
+.HJ-my-bd-head-money .money{
+  font-size:60rpx;
+  font-weight: bold;
+}
+.unite{
+  font-size:24rpx;
+}
+
+.HJ-my-bd-head-mark{
+ font-size:30rpx;
+ color:#999;
+}
+
+.HJ-btn{
+  color:#fff;
+  background-color:#fec244;
+  border-radius: 45rpx;
+  padding:15rpx 25rpx ;
+}
+.HJ-my-bd-body{
+  padding:25rpx;
+  text-align: center;
+
+}
+.HJ-my-bd-body-title{
+  margin-bottom:25rpx;
+  color:#666;
+}
+.HJ-qrimg{
+  width:100%;
+  height:400rpx;
+}
+
+.HJ-qrimg image{
+  width:400rpx;
+  height:400rpx;
+  margin:25rpx auto;
+}
+
+.HJ-my-bd-body-foot{
+  width:100%;
+  margin-top:25rpx;
+  text-align: right; 
+  color:#666;
+}
+.HJ-my-bd-body-foot image{
+  width:40rpx;
+  height:40rpx;
+  vertical-align: middle;
+  margin-right:10rpx;
+}
+.HJ-my-bd-body-foot text{
+  line-height:48rpx;
+}
+.footer {
+  bottom: 0;
+  width: 100%;
+}
+
+.footer image {
+  width: 100%;
+  height: 200rpx;
+}

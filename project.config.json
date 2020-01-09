@@ -85,8 +85,8 @@
 					"scene": null
 				},
 				{
-					"id": -1,
-					"name": "我的",
+					"id": 4,
+					"name": "我的引导页",
 					"pathName": "pages/my/index_my",
 					"query": "",
 					"scene": null
@@ -95,6 +95,14 @@
 					"id": -1,
 					"name": "提现",
 					"pathName": "pages/my/tixian",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "我的",
+					"pathName": "pages/my/my",
+					"query": "",
 					"scene": null
 				}
 			]
