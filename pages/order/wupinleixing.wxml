@@ -17,7 +17,7 @@
 						<view class="HJ-cell-list">
 							<view class="flex-half">塑料类:</view>
 							<view class="flex-1">
-								<text class="margin-r-40">矿泉水矿泉</text>
+								<text class="margin-r-40">矿泉水</text>
 								<text>2kg</text>
 							</view>
 						</view>
@@ -28,34 +28,14 @@
 						<view class="HJ-cell-list">
 							<view class="flex-half">塑料类:</view>
 							<view class="flex-1">
-								<text class="margin-r-40">矿泉水矿泉</text>
+								<text class="margin-r-40">白色透明丙烯筐</text>
 								<text>2kg</text>
 							</view>
 						</view>
 						<image class="delimg-fr" src="/image/icon/shanchu.png"></image>
-					</view>
+					</view>			
 
-					<view class="HJ-cells site padding-t-none">
-						<view class="HJ-cell-list">
-							<view class="flex-half">塑料类:</view>
-							<view class="flex-1">
-								<text class="margin-r-40">矿泉水矿泉</text>
-								<text>2kg</text>
-							</view>
-						</view>
-						<image class="delimg-fr" src="/image/icon/shanchu.png"></image>
-					</view>
-
-					<view class="HJ-cells site padding-t-none">
-						<view class="HJ-cell-list">
-							<view class="flex-half">塑料类:</view>
-							<view class="flex-1">
-								<text class="margin-r-40">矿泉水矿泉</text>
-								<text>2kg</text>
-							</view>
-						</view>
-						<image class="delimg-fr" src="/image/icon/shanchu.png"></image>
-					</view>
+					
 				</view>
 			</view>
 
@@ -96,77 +76,7 @@
 					</view>
 				</view>
 
-				<view class="HJ-product-list">
-					<view class="HJ-product-text">
-						白色透明丙烯筐
-						<view class="content-tip"></view>
-						<image class="content-tip-img" src="/image/icon/duigou.png"></image>
-					</view>
-					<view class="HJ-product-dec">
-						<input placeholder="输入重量" placeholder-class="input-placeholder" class="flex-half"></input>
-						<text>kg</text>
-					</view>
-				</view>
-
-				<view class="HJ-product-list">
-					<view class="HJ-product-text">
-						白色透明丙烯筐
-						<view class="content-tip"></view>
-						<image class="content-tip-img" src="/image/icon/duigou.png"></image>
-					</view>
-					<view class="HJ-product-dec">
-						<input placeholder="输入重量" placeholder-class="input-placeholder" class="flex-half"></input>
-						<text>kg</text>
-					</view>
-				</view>
-
-				<view class="HJ-product-list">
-					<view class="HJ-product-text">
-						白色透明丙烯筐
-						<view class="content-tip"></view>
-						<image class="content-tip-img" src="/image/icon/duigou.png"></image>
-					</view>
-					<view class="HJ-product-dec">
-						<input placeholder="输入重量" placeholder-class="input-placeholder" class="flex-half"></input>
-						<text>kg</text>
-					</view>
-				</view>
-
-				<view class="HJ-product-list">
-					<view class="HJ-product-text">
-						白色透明丙烯筐
-						<view class="content-tip"></view>
-						<image class="content-tip-img" src="/image/icon/duigou.png"></image>
-					</view>
-					<view class="HJ-product-dec">
-						<input placeholder="输入重量" placeholder-class="input-placeholder" class="flex-half"></input>
-						<text>kg</text>
-					</view>
-				</view>
-
-				<view class="HJ-product-list">
-					<view class="HJ-product-text">
-						白色透明丙烯筐
-						<view class="content-tip"></view>
-						<image class="content-tip-img" src="/image/icon/duigou.png"></image>
-					</view>
-					<view class="HJ-product-dec">
-						<input placeholder="输入重量" placeholder-class="input-placeholder" class="flex-half"></input>
-						<text>kg</text>
-					</view>
-				</view>
-
-				<view class="HJ-product-list">
-					<view class="HJ-product-text">
-						白色透明丙烯筐
-						<view class="content-tip"></view>
-						<image class="content-tip-img" src="/image/icon/duigou.png"></image>
-					</view>
-					<view class="HJ-product-dec">
-						<input placeholder="输入重量" placeholder-class="input-placeholder" class="flex-half"></input>
-						<text>kg</text>
-					</view>
-				</view>
+			
 
 			</view>
 		</view>
