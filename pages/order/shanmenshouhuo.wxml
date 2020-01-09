@@ -6,10 +6,10 @@
 			取货地址
 		</view>
 		<view class="HJ-cell-text flex-1">
-			<input placeholder="选择取货地址" placeholder-class="HJ-inputView"></input>
+			<view placeholder="选择取货地址" placeholder-class="HJ-inputView">选择取货地址</view>
 		</view>
 		<view class="HJ-cell-right">
-			<image src="/image/icon/xiangyou.png"></image>
+			<image src="/image/icon/maodian-lv.png"></image>
 		</view>
 	</view>
 

@@ -14,7 +14,7 @@ page {
 
 .HJ-list-left view {
   padding: 25rpx;
-  font-size:24rpx;
+  font-size:32rpx;
 }
 
 .HJ-list-left view.active {

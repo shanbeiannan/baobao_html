@@ -9,10 +9,10 @@
 			<view class="{{isShowChild == 4 ?'active':''}}" bindtap="showClassChild" data-index="4">玻璃</view>
 			<view class="{{isShowChild == 5 ?'active':''}}" bindtap="showClassChild" data-index="5">家电</view>
 		</view>
-		<view class="HJ-list-right flex-1">
+		<view class="HJ-list-right flex-1" style="height:{{systemHeight-20}}px;overflow-y:scorll">
 			<view class="HJ-selected border-b-gray">
-				<view class="margin-b-20 fz-12">您已选择：</view>
-				<view style="height:{{showSelectHeight}}px;overflow:auto;">
+				<view class="margin-b-20 fz-16">您已选择：</view>
+				<view >
 					<view class="HJ-cells site padding-t-none">
 						<view class="HJ-cell-list">
 							<view class="flex-half">塑料类:</view>
@@ -59,7 +59,7 @@
 				</view>
 			</view>
 
-			<view class="HJ-product" style="height:{{showProductHeight-110}}px;overflow:auto;">
+			<view class="HJ-product" >
 				<view class="HJ-product-list">
 					<view class="HJ-product-text active">
 						纸壳（通货）
