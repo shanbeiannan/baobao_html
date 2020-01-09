@@ -56,7 +56,7 @@ page {
   position:relative;
   text-align: center;
   font-size: 24rpx;
-  padding: 15rpx 20rpx;
+  padding: 15rpx 25rpx;
   color: #333;
   background-color: #e5e5e5;
   border-radius: 15rpx;
@@ -76,7 +76,7 @@ page {
   width: 0;
   height: 0;
   border-style: solid;
-  border-width: 30rpx 30rpx 30rpx 30rpx;
+  border-width: 22rpx 22rpx 22rpx 22rpx;
   border-color:  #21c179 #21c179 transparent transparent;
   border-top-right-radius: 15rpx;  
   top:0;
@@ -87,9 +87,9 @@ page {
   display:none;
   position: absolute;
   z-index:11;
-  width:25rpx;
-  height:25rpx;
-  top:5rpx;
+  width:22rpx;
+  height:22rpx;
+  top:4rpx;
   right:5rpx;
 }
 
