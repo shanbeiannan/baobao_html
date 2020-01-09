@@ -22,6 +22,11 @@ page {
   align-items: center;
 }
 
+.HJ-my-hd-photo-unlogin{
+  display: flex;
+  align-items: center;
+}
+
 .HJ-my-hd-photo {
   margin-right: 20rpx;
 }
@@ -29,12 +34,24 @@ page {
 .HJ-my-hd-photo image {
   width: 120rpx;
   height: 120rpx;
+  border-radius: 50%;
+}
+
+button{
+  background:transparent;
+  color:#fff;
+  width:100rpx;
+  font-weight: 1;
+  padding-left:0;
+  margin-left:0;
+  font-size:32rpx;
+  text-align: left;
 }
 
 .HJ-my-hd-info {
   display: flex;
   flex-direction: column;
-  color: #fff;
+  color: #fff; 
 }
 
 .HJ-my-hd-name {
