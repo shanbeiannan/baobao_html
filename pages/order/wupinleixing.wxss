@@ -117,11 +117,12 @@ page {
 .HJ-btn{
   background-color:#21c179;
   padding:25rpx;
-  width:100%;
+  width:100% !important;
   text-align: center;
   position: fixed;
   bottom:0;
   color:#fff;
   font-weight: bold;
+  border-radius: 0;
   z-index:10;
 }
