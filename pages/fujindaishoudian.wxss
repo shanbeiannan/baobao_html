@@ -16,7 +16,12 @@
   width:40rpx;
   height:40rpx;
 }
-
+button{
+  width:40px !important;
+  padding: 8px 4px;
+  border:0;
+  border-radius: 0;
+}
 /**本页样式*/
 .HJ-search{
   width:90%;
@@ -41,4 +46,8 @@
 .HJ-line{
   width:100%;
   border-top:25rpx solid #f8f8f8;
+}
+
+.list-none{
+  margin:0 auto;
 }

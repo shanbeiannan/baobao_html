@@ -8,3 +8,7 @@
 
 
 <navigator url="/pages/order/chakanhuishoujia" hover-class="none">查看回收价</navigator>
+
+首页进入的
+<navigator url="/pages/fujindaishoudian" hover-class="none">附近代收点</navigator>
+<navigator url="/pages/ditu" hover-class="none">地图页</navigator>
