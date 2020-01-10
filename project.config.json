@@ -109,6 +109,13 @@
 					"id": -1,
 					"name": "查看回收价",
 					"pathName": "pages/order/chakanhuishoujia",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "附近回收点",
+					"pathName": "pages/fujindaishoudian",
 					"scene": null
 				}
 			]

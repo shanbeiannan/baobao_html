@@ -12,7 +12,8 @@
     "pages/my/shezhi",
     "pages/my/tixian",
     "pages/my/my",
-    "pages/order/chakanhuishoujia"
+    "pages/order/chakanhuishoujia",
+    "pages/fujindaishoudian"
   ],
   "tabBar": {
     "list": [
