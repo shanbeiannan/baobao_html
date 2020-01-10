@@ -15,7 +15,8 @@ page {
 
 .HJ-product-text{
   margin-right:0;
-  padding: 10rpx 20rpx
+  padding: 10rpx 20rpx;
+  font-size:26rpx;
 }
 
 .HJ-product-list{
@@ -27,7 +28,7 @@ page {
 }
 .HJ-product-dec{
   padding:25rpx 0;
-  font-size:24rpx;  
+  font-size:26rpx;  
 }
 /* .HJ-product-dec-rigth{  
 
@@ -41,7 +42,7 @@ page {
 
 .HJ-product-price-money{
   padding:10rpx;
-  font-size:24rpx;
+  font-size:26rpx;
  
 }
 .HJ-product-price-text{
