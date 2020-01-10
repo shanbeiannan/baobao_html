@@ -10,7 +10,7 @@
 				<view class="HJ-my-hd-info">
 					<!-- <text class="HJ-my-hd-name">周杰伦</text>
 					<text>天津</text> -->
-						<button class="HJ-btn-login" hover-class="none">点击登录</button>
+						<button hover-class="none">点击登录</button>
 				</view>
 			</view>
 			<view class="HJ-my-hd-right">
