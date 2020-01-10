@@ -1,0 +1,27 @@
+<!--pages/ditu.wxml-->
+<view class="container">
+
+	<view class="HJ-map-area">
+		<view>这里放地图</view>
+		<view class="HJ-map-tip">
+      <image src="/image/icon/daohang.png"></image>
+		</view>
+	</view>
+
+
+
+	<view class="HJ-map-address">
+		<view class="HJ-map-hd">
+			<view class="HJ-map-img">
+				<image src="/image/icon/maodian-lv.png"></image>
+			</view>
+			<view class="HJ-map-title">国贸大厦</view>
+		</view>
+		<view class="HJ-map-dec">
+			这里放具体的地址这里放具体的地址这里放具体的
+		</view>
+
+	</view>
+
+
+</view>

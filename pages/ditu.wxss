@@ -1,0 +1,46 @@
+/* pages/ditu.wxss */
+.HJ-map-area{
+  width:100%;
+  height:350px;
+  background-color:#f8f8f8;
+  position: relative;
+}
+.HJ-map-tip{
+  position: absolute;
+  background-color:#21c179;
+  width:80rpx;
+  height:80rpx;
+  border-radius: 50%;
+  bottom:-40rpx;
+  right:30rpx; 
+  line-height: 80rpx;
+  text-align: center;
+}
+.HJ-map-tip image{
+  width:40rpx;
+  height:40rpx;  
+  margin:auto;
+  vertical-align: middle;
+}
+
+.HJ-map-address{
+ width:90%;
+ margin-top:80rpx;
+}
+.HJ-map-hd{
+  display:flex;
+  align-items: center;
+}
+.HJ-map-img image{
+  width:40rpx;
+  height:40rpx;
+  vertical-align: middle;
+  margin-right:10rpx;
+}
+
+.HJ-map-title{
+  font-weight: bold;
+}
+.HJ-map-dec{
+  padding:25rpx 25rpx 25rpx 15rpx;
+}

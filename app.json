@@ -13,7 +13,8 @@
     "pages/my/tixian",
     "pages/my/my",
     "pages/order/chakanhuishoujia",
-    "pages/fujindaishoudian"
+    "pages/fujindaishoudian",
+    "pages/ditu"
   ],
   "tabBar": {
     "list": [

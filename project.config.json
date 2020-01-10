@@ -116,6 +116,13 @@
 					"id": -1,
 					"name": "附近回收点",
 					"pathName": "pages/fujindaishoudian",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "地图",
+					"pathName": "pages/ditu",
 					"scene": null
 				}
 			]
