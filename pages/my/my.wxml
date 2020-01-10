@@ -2,12 +2,7 @@
 <view class="container" style="height:{{systemHeight-10}}px">
 	<view class="HJ-my-bg">
 		<view class="HJ-my-hd">
-			<view class="HJ-my-hd-left">
-         <!-- <view class="HJ-my-hd-photo-unlogin">
-					<image src="/image/default/man.png"></image>
-					<button class="HJ-btn-login">点击登录</button>
-				</view> -->
-				
+			<view class="HJ-my-hd-left">         
 
 				<view class="HJ-my-hd-photo">
 					<image src="/image/default/man.png"></image>
@@ -15,7 +10,7 @@
 				<view class="HJ-my-hd-info">
 					<!-- <text class="HJ-my-hd-name">周杰伦</text>
 					<text>天津</text> -->
-						<button class="HJ-btn-login">点击登录</button>
+						<button class="HJ-btn-login" hover-class="none">点击登录</button>
 				</view>
 			</view>
 			<view class="HJ-my-hd-right">
