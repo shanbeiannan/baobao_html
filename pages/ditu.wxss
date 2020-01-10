@@ -44,3 +44,34 @@
 .HJ-map-dec{
   padding:25rpx 25rpx 25rpx 15rpx;
 }
+
+.HJ-map-button{
+  margin-top:25rpx;
+  width:100%;
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  justify-items: center;
+  text-align: justify;
+}
+
+.HJ-map-button-list{
+  flex:1;
+}
+
+.HJ-map-button-list .btn-left,.HJ-map-button-list .btn-right{
+  background-color:#21c179;
+  border-radius: 20rpx;
+  padding:30rpx;
+  color:#fff;
+  width:100px;
+  text-align: center;
+  margin:0 auto;
+  font-size:32rpx;
+  font-weight: 700;
+}
+.HJ-map-button-list .btn-left
+{
+  background-color:#4e7bff;
+}

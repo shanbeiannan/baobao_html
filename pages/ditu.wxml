@@ -4,7 +4,7 @@
 	<view class="HJ-map-area">
 		<view>这里放地图</view>
 		<view class="HJ-map-tip">
-      <image src="/image/icon/daohang.png"></image>
+			<image src="/image/icon/daohang.png"></image>
 		</view>
 	</view>
 
@@ -23,5 +23,15 @@
 
 	</view>
 
+	<view class="HJ-map-button">
+		<view class="HJ-map-button-list">
+			<view class="btn-left">附近回收点</view>
+		</view>
+
+		<view class="HJ-map-button-list">
+			<view class="btn-right">电话联系</view>
+		</view>
+
+	</view>
 
 </view>
