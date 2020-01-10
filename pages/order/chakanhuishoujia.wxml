@@ -1,0 +1,97 @@
+<!--pages/order/chakanhuishoujia.wxml-->
+<view class="container margin-none">
+	<view class="HJ-container ">
+		<view class="HJ-list-left" style="height:{{systemHeight-20}}px;">
+			<view class="{{isShowChild == 0 ?'active':''}}" bindtap="showClassChild" data-index="0">纸类</view>
+			<view class="{{isShowChild == 1 ?'active':''}}" bindtap="showClassChild" data-index="1">塑料</view>
+			<view class="{{isShowChild == 2 ?'active':''}}" bindtap="showClassChild" data-index="2">有色金属</view>
+			<view class="{{isShowChild == 3 ?'active':''}}" bindtap="showClassChild" data-index="3">废钢</view>
+			<view class="{{isShowChild == 4 ?'active':''}}" bindtap="showClassChild" data-index="4">玻璃</view>
+			<view class="{{isShowChild == 5 ?'active':''}}" bindtap="showClassChild" data-index="5">家电</view>
+		</view>
+		<view class="HJ-list-right flex-1" style="height:{{systemHeight-40}}px;max-height:{{systemHeight-40}}px;overflow-y:scroll">
+			<view class="HJ-product border-b-gray">
+				<view class="HJ-product-list">
+					<view class="HJ-product-dec">
+						白色透明丙烯
+					</view>
+					<view class="HJ-product-dec-rigth">
+						<view class="HJ-product-price">
+							<view class="HJ-product-price-money">
+								<text class="HJ-product-price-text">12.65~16.64</text>
+								<text>元/kg</text>
+							</view>
+
+						</view>
+
+					</view>
+				</view>
+			</view>
+
+
+
+			<view class="HJ-product border-b-gray">
+				<view class="HJ-product-list">
+					<view class="HJ-product-dec">
+						白色透明丙烯
+					</view>
+					<view class="HJ-product-dec-rigth">
+						<view class="HJ-product-price">
+							<view class="HJ-product-price-money">
+								<text class="HJ-product-price-text">12.65~16.64</text>
+								<text>元/kg</text>
+							</view>
+						</view>
+						<view class="HJ-product-price">
+							<view class="HJ-product-price-money">
+								<text class="HJ-product-price-text">15</text>
+								<text>元/kg</text>
+							</view>
+						</view>
+
+					</view>
+				</view>
+			</view>
+
+
+			<view class="HJ-product border-b-gray">
+				<view class="HJ-product-list">
+					<view class="HJ-product-dec">
+						白色透明丙烯
+					</view>
+					<view class="HJ-product-dec-rigth">
+						<view class="HJ-product-price">
+							<view class="HJ-product-price-money">
+								<text class="HJ-product-price-text">12.65~16.64</text>
+								<text>元/kg</text>
+							</view>
+							<view class="HJ-product-text active">
+								回收价
+							</view>
+						</view>
+
+						<view class="HJ-product-price">
+							<view class="HJ-product-price-money">
+								<text class="HJ-product-price-text">15</text>
+								<text>元/kg</text>
+							</view>
+							<view class="HJ-product-text">
+								卖的价
+							</view>
+
+						</view>
+
+					</view>
+				</view>
+			</view>
+
+
+
+		</view>
+	</view>
+
+	<!-- <view class="HJ-btn">
+		确定选择
+	</view> -->
+
+</view>

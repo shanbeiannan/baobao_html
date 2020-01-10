@@ -11,7 +11,8 @@
     "pages/my/showAddress",
     "pages/my/shezhi",
     "pages/my/tixian",
-    "pages/my/my"
+    "pages/my/my",
+    "pages/order/chakanhuishoujia"
   ],
   "tabBar": {
     "list": [

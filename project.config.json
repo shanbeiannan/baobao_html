@@ -104,6 +104,12 @@
 					"pathName": "pages/my/my",
 					"query": "",
 					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "查看回收价",
+					"pathName": "pages/order/chakanhuishoujia",
+					"scene": null
 				}
 			]
 		}

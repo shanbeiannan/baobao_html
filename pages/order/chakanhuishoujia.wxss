@@ -1,0 +1,51 @@
+/* pages/order/chakanhuishoujia.wxss */
+page {
+  background-color: #f8f8f8;
+}
+.delimg-fr {
+  width: 40rpx;
+  height: 40rpx;
+  position: absolute;
+  top: -10rpx;
+  right: -10rpx;
+}
+.HJ-cells{
+  width:98%;
+}
+
+.HJ-product-text{
+  margin-right:0;
+  padding: 10rpx 20rpx
+}
+
+.HJ-product-list{
+  display:flex;
+  align-items: flex-start;
+  justify-content:space-between ;
+  margin-bottom: 0;
+  text-align: right;
+}
+.HJ-product-dec{
+  padding:25rpx 0;
+  font-size:24rpx;  
+}
+/* .HJ-product-dec-rigth{  
+
+} */
+.HJ-product-price{   
+  display:flex;
+  flex-direction: row;  
+  margin:10rpx auto;
+ 
+}
+
+.HJ-product-price-money{
+  padding:10rpx;
+  font-size:24rpx;
+ 
+}
+.HJ-product-price-text{
+  font-weight:bold;
+}
+
+

@@ -1,10 +1,10 @@
 <!--pages/my/index_my.wxml-->
 <text>pages/my/index_my.wxml</text>
-<navigator url="/pages/my/editAddress">地址编辑</navigator>
-<navigator url="/pages/my/showAddress">地址展示</navigator>
+<navigator url="/pages/my/editAddress" hover-class="none">地址编辑</navigator>
+<navigator url="/pages/my/showAddress" hover-class="none">地址展示</navigator>
 
-<navigator url="/pages/my/shezhi">设置</navigator>
+<navigator url="/pages/my/shezhi" hover-class="none">设置</navigator>
 
-<navigator url="/pages/my/tixian">提现</navigator>
+<navigator url="/pages/my/tixian" hover-class="none">提现</navigator>
 
-<navigator url="/pages/my/my">我的</navigator>
+<navigator url="/pages/my/my" hover-class="none">我的</navigator>
