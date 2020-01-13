@@ -32,27 +32,25 @@
 				</view>
 			</view>
 
-
-
-			<view class="HJ-product border-b-gray">
+			<view class="HJ-product border-b-gray">      	
 				<view class="HJ-product-list">
 					<view class="HJ-product-dec">
 						白色透明丙烯
 					</view>
 					<view class="HJ-product-dec-rigth">
 						<view class="HJ-product-price">
-							<view class="HJ-product-price-money">
-								<text class="HJ-product-price-text">12.65~16.64</text>
-								<text>元/kg</text>
+							<view class="HJ-product-price-money HJ-product-dec">
+								<text>共</text>
+                <input placeholder="输入重量" ></input>
+								<text>kg</text>
 							</view>
+
 						</view>
 
 					</view>
 				</view>
 			</view>
 
-
-			
 
 
 		</view>

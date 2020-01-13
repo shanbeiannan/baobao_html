@@ -48,6 +48,7 @@ page {
 }
 .HJ-product-price-money input{
   width:100rpx;
+  margin-left:10rpx;
 }
 
 .HJ-product-price-text{
