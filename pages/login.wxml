@@ -1,0 +1,23 @@
+<!--pages/login.wxml-->
+<view class="container">
+	<view class="HJ-login">
+		<view class="HJ-login-logo">
+			<image src="/image/icon/logo.png"></image>
+		</view>
+
+		<view class="HJ-login-dec-list">
+			<view class="HJ-login-dec">
+				<image src="/image/icon/mine.png"></image>
+				<input type="text" placeholder="请输入用户名/手机号"></input>
+			</view>
+			<view class="HJ-login-dec">
+				<image src="/image/icon/mima-hui.png"></image>
+				<input type="password" placeholder="请输入密码"></input>
+			</view>
+		</view>
+	</view>
+
+</view>
+<view class="page__bd page__bd_spacing margin-t-40">
+	<button class="weui-btn" type="primary" style="width:auto;">马上登录</button>
+</view>

@@ -1,0 +1,30 @@
+/* pages/login.wxss */
+.HJ-login{
+  width:90%;
+  margin-top:120rpx;
+}
+.HJ-login-logo{
+  width:80px;
+  height:80px;  
+  margin:0 auto;
+}
+
+.HJ-login-logo image{
+width:80px;
+height:80px;
+}
+.HJ-login-dec-list{
+  margin:60rpx auto;
+}
+.HJ-login-dec{
+  display:flex;
+  border-bottom:1px solid #e5e5e5;
+  padding:32rpx;
+  
+}
+
+.HJ-login-dec image{
+  width:48rpx;
+  height:48rpx;
+  margin-right:25rpx;
+}

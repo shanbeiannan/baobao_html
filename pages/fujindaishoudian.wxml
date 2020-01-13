@@ -6,12 +6,12 @@
     <view class="list_h_left">查看更多＞</view>
   </view> -->
 
-
-	<view class="HJ-search">
+<form >
+	<view class="HJ-search">	
 		<input placeholder="附近代收点名称"></input>
-		<button hover-class="none" ><image src="/image/icon/sousuo.png"></image></button>
+		<button  hover-class="none" ><image src="/image/icon/sousuo.png"></image></button>	
 	</view>
-
+	</form>
 	<view class="list_b">
 
 		<view class="list_b_container flex-1">  

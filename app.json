@@ -14,7 +14,8 @@
     "pages/my/my",
     "pages/order/chakanhuishoujia",
     "pages/fujindaishoudian",
-    "pages/ditu"
+    "pages/ditu",
+    "pages/login"
   ],
   "tabBar": {
     "list": [

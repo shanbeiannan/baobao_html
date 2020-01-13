@@ -123,6 +123,13 @@
 					"id": -1,
 					"name": "地图",
 					"pathName": "pages/ditu",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "登录页",
+					"pathName": "pages/login",
 					"scene": null
 				}
 			]

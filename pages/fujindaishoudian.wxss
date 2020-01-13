@@ -23,6 +23,9 @@ button{
   border-radius: 0;
 }
 /**本页样式*/
+form{
+  width:100%;
+}
 .HJ-search{
   width:90%;
   background-color:#f8f8f8;
