@@ -19,8 +19,7 @@ height:80px;
 .HJ-login-dec{
   display:flex;
   border-bottom:1px solid #e5e5e5;
-  padding:32rpx;
-  
+  padding:32rpx;  
 }
 
 .HJ-login-dec image{
