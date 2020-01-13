@@ -38,6 +38,15 @@
   font-size: 40rpx;
 }
 
+.fc-green{
+  color:#21c179 !important;
+}
+.fc-gray{
+  color:#666 !important;
+}
+.fc-red{
+  color:#ff4c5a !important;
+}
 .margin-t-10 {
   margin-top: 10rpx;
 }
@@ -535,12 +544,12 @@
   margin-right: 20rpx;
 }
 
-.HJ-cell-right {
+.HJ-cell-left,.HJ-cell-right {
   width: 40rpx;
   height: 40rpx;
 }
 
-.HJ-cell-right image {
+.HJ-cell-left image,.HJ-cell-right image {
   width: 40rpx;
   height: 40rpx;
 }
@@ -736,4 +745,11 @@
   font-weight: bold; 
    border-radius: 0;
   z-index:10;
+}
+
+/**列表页**/
+
+.HJ-line{
+  width:100%;
+  border-top:25rpx solid #f8f8f8;
 }

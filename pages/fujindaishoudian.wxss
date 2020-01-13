@@ -46,10 +46,7 @@ form{
   vertical-align: middle;
 }
 
-.HJ-line{
-  width:100%;
-  border-top:25rpx solid #f8f8f8;
-}
+
 
 .list-none{
   margin:0 auto;
