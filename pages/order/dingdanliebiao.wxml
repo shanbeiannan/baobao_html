@@ -45,7 +45,7 @@
 							<image src="/image/icon/xiangyou.png"></image>
 						</view>
 					</view>
-					<view class="HJ-item-hd-right">已完成</view>
+					<view class="HJ-item-hd-right fc-gray">已取消</view>
 				</view>
 				<view class="HJ-item-dec border-b-gray">
 					<view class="HJ-item-dec-list margin-b-20">
@@ -84,7 +84,7 @@
 							<image src="/image/icon/xiangyou.png"></image>
 						</view>
 					</view>
-					<view class="HJ-item-hd-right fc-red">已完成</view>
+					<view class="HJ-item-hd-right fc-red">等待确认</view>
 				</view>
 				<view class="HJ-item-dec border-b-gray">
 					<view class="HJ-item-dec-list margin-b-20">
