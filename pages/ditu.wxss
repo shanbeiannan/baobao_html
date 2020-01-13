@@ -5,6 +5,10 @@
   background-color:#f8f8f8;
   position: relative;
 }
+.HJ-map-area map{
+  width:100%;
+  height:350px;
+}
 .HJ-map-tip{
   position: absolute;
   background-color:#21c179;

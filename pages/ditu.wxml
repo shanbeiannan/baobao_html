@@ -2,7 +2,7 @@
 <view class="container">
 
 	<view class="HJ-map-area">
-		<view>这里放地图</view>
+		<map>这里放地图</map>
 		<view class="HJ-map-tip">
 			<image src="/image/icon/daohang.png"></image>
 		</view>
