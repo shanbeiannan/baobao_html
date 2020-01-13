@@ -15,7 +15,10 @@
     "pages/order/chakanhuishoujia",
     "pages/fujindaishoudian",
     "pages/ditu",
-    "pages/login"
+    "pages/login",
+    "pages/xuanzefenlei",
+    "pages/order/dingdanliebiao",
+    "pages/order/kucun"
   ],
   "tabBar": {
     "list": [

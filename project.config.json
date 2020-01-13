@@ -130,6 +130,27 @@
 					"id": -1,
 					"name": "登录页",
 					"pathName": "pages/login",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "选择分类",
+					"pathName": "pages/xuanzefenlei",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "订单列表",
+					"pathName": "pages/order/dingdanliebiao",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "库存",
+					"pathName": "pages/order/kucun",
 					"scene": null
 				}
 			]
