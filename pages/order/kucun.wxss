@@ -50,9 +50,3 @@ page {
   width:100rpx;
   margin-left:10rpx;
 }
-
-.HJ-product-price-text{
-  font-weight:bold;
-}
-
-
