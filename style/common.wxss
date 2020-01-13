@@ -163,7 +163,9 @@
 .border-none {
   border: none !important;
 }
-
+.border-t-20{
+  border-top:20rpx solid #eee;
+}
 .border-l-gray {
   border-left: 1px solid #eee;
 }
@@ -420,6 +422,7 @@
   display: inline-block;
   background-color:#f8f8f8;
   width:240rpx;
+  height:140px;
   border-radius: 10rpx;
   margin-right:20rpx;
   padding:20rpx;

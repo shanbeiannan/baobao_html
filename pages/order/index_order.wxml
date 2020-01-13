@@ -9,6 +9,9 @@
 
 <navigator url="/pages/order/chakanhuishoujia" hover-class="none">查看回收价</navigator>
 
+
+<navigator url="/pages/xuanzefenlei" hover-class="none">选择分类</navigator>
+
 <navigator url="/pages/order/kucun" hover-class="none">库存</navigator>
 
 <navigator url="/pages/order/dingdanliebiao" hover-class="none">订单列表</navigator>
