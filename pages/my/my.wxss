@@ -40,14 +40,19 @@ page {
 button{
   background:transparent;
   color:#fff;
-  width:100rpx;
+  width:auto;
   font-weight: 1;
-  padding-left:0;
+  /* padding-left:0;
+  padding-right:0; */
+  padding:0;
   margin-left:0;
   font-size:32rpx;
   text-align: left;
+  line-height:2;
 }
-
+button:not([size='mini']){
+  min-height:0;
+}
 .HJ-my-hd-info {
   display: flex;
   flex-direction: column;
