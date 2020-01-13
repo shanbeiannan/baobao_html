@@ -53,26 +53,26 @@
 						<view class="flex-half">2kg </view>
 						<view>￥2.00</view>
 					</view>
-          <view class="HJ-item-dec-list">
+					<view class="HJ-item-dec-list">
 						<view class="flex-1">塑料类）矿泉水瓶</view>
 						<view class="flex-half">2kg </view>
 						<view>￥2.00</view>
 					</view>
 				</view>
 				<view class="HJ-item-dec-down border-b-gray">
-          <view class="HJ-item-dec-list">
+					<view class="HJ-item-dec-list">
 						<view class="flex-1 font-12">订单号：EE19256245455</view>
 						<view class=" font-12">合计金额：<text class="fc-green fz-14">￥2.00</text></view>
 					</view>
-        </view>
+				</view>
 				<view class="HJ-item-footer">
-         <view class="btn-gray-min">删除订单</view>
-         <view class="btn-red-min">确认收货</view>
-        </view>
+					<view class="btn-gray-min">删除订单</view>
+					<view class="btn-red-min">确认收货</view>
+				</view>
 			</view>
 			<view class="HJ-line"></view>
 
-		<view class="HJ-list-item">
+			<view class="HJ-list-item">
 				<view class="HJ-item-hd border-b-gray">
 					<view class="HJ-item-hd-left">
 						<view class="HJ-cell-left">
@@ -92,27 +92,27 @@
 						<view class="flex-half">2kg </view>
 						<view>￥2.00</view>
 					</view>
-          <view class="HJ-item-dec-list">
+					<view class="HJ-item-dec-list">
 						<view class="flex-1">塑料类）矿泉水瓶</view>
 						<view class="flex-half">2kg </view>
 						<view>￥2.00</view>
 					</view>
 				</view>
 				<view class="HJ-item-dec-down border-b-gray">
-          <view class="HJ-item-dec-list">
+					<view class="HJ-item-dec-list">
 						<view class="flex-1 font-12">订单号：EE19256245455</view>
 						<view class=" font-12">合计金额：<text class="fc-green fz-14">￥2.00</text></view>
 					</view>
-        </view>
+				</view>
 				<view class="HJ-item-footer">
-         <view class="btn-gray-min">删除订单</view>
-         <view class="btn-red-min">确认收货</view>
-        </view>
+					<view class="btn-gray-min">删除订单</view>
+					<view class="btn-red-min">确认收货</view>
+				</view>
 			</view>
 			<view class="HJ-line"></view>
 
 
-      <view class="HJ-list-item">
+			<view class="HJ-list-item">
 				<view class="HJ-item-hd border-b-gray">
 					<view class="HJ-item-hd-left">
 						<view class="HJ-cell-left">
@@ -132,22 +132,22 @@
 						<view class="flex-half">2kg </view>
 						<view>￥2.00</view>
 					</view>
-          <view class="HJ-item-dec-list">
+					<view class="HJ-item-dec-list">
 						<view class="flex-1">塑料类）矿泉水瓶</view>
 						<view class="flex-half">2kg </view>
 						<view>￥2.00</view>
 					</view>
 				</view>
 				<view class="HJ-item-dec-down border-b-gray">
-          <view class="HJ-item-dec-list">
+					<view class="HJ-item-dec-list">
 						<view class="flex-1 font-12">订单号：EE19256245455</view>
 						<view class=" font-12">合计金额：<text class="fc-green fz-14">￥2.00</text></view>
 					</view>
-        </view>
+				</view>
 				<view class="HJ-item-footer">
-         <view class="btn-gray-min">删除订单</view>
-         <view class="btn-red-min">确认收货</view>
-        </view>
+					<view class="btn-gray-min">删除订单</view>
+					<view class="btn-red-min">确认收货</view>
+				</view>
 			</view>
 			<view class="HJ-line"></view>
 
