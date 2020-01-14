@@ -22,13 +22,13 @@ Page({
       },
     })
   },
-  showList:function(e){
+  showList:function(e){/**点击上部页签 */
     var $current =  e.currentTarget.dataset.index;
     this.setData({
       isShowList:$current
     })
   },
-  swiperChangeShow:function(e){
+  swiperChangeShow:function(e){/**swiper滑动 */
     var $current = e.detail.current;
     this.setData({
       isShowList:$current
