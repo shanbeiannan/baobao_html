@@ -5,16 +5,35 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    isShowList:0
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    wx.getSystemInfo({
+      complete: (res) => {},
+      fail: (res) => {},
+      success: (result) => {
+        this.setData({
+          systemHeight:result.windowHeight
+        })
+      },
+    })
   },
-
+  showList:function(e){
+    var $current =  e.currentTarget.dataset.index;
+    this.setData({
+      isShowList:$current
+    })
+  },
+  swiperChangeShow:function(e){
+    var $current = e.detail.current;
+    this.setData({
+      isShowList:$current
+    })
+  },
   /**
    * 生命周期函数--监听页面初次渲染完成
    */

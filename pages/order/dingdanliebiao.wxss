@@ -15,8 +15,22 @@
 .list_b_container{
   padding:0;
 }
+
+.banner{
+  width:100%;
+  margin-top:26px;
+}
+.swiperitem{
+  overflow-y: auto;
+}
 /**新*/
+page{
+  background-color:#f8f8f8;
+}
 .list_hd {
+  position: fixed;
+  top:0;
+  z-index: 10;
   background-color: #fff;
   padding: 25rpx 0;
   display: flex;
@@ -33,8 +47,9 @@
 }
 
 
-.HJ-list-item {
+.HJ-list-item {  
   padding:0 25rpx;
+  background-color:#fff;
 }
 
 .HJ-item-hd {

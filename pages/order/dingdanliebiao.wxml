@@ -2,269 +2,284 @@
 
 <view class="container">
 	<view class="list_hd">
-		<view class=" flex-1">全部</view>
-		<view class="active flex-1">已完成</view>
-		<view class=" flex-1">已取消</view>
+		<view class="{{isShowList == 0 ?'active':''}} flex-1" data-index="0" bindtap="showList">全部</view>
+		<view class="{{isShowList == 1 ?'active':''}} flex-1" data-index="1" bindtap="showList">已完成</view>
+		<view class="{{isShowList == 2 ?'active':''}} flex-1" data-index="2" bindtap="showList">已取消</view>
 	</view>
 	<view class="HJ-line"></view>
 
-<swiper >
-<swiper-item>
-<view class="list_b">
+	<swiper class="banner" style="height:{{systemHeight-50}}px" current="{{isShowList}}" bindchange="swiperChangeShow">
+		<swiper-item class="swiperitem" >
+			<view class="list_b">
 
-		<view class="list_b_container flex-1">
-			<view class="HJ-list-item ">
-				<view class="HJ-item-hd border-b-gray">
-					<view class="HJ-item-hd-left">
-						<view class="HJ-cell-left">
-							<image src="/image/icon/shangmen-lv.png"></image>
+				<view class="list_b_container flex-1">
+					<view class="HJ-list-item ">
+						<view class="HJ-item-hd border-b-gray">
+							<view class="HJ-item-hd-left">
+								<view class="HJ-cell-left">
+									<image src="/image/icon/shangmen-lv.png"></image>
+								</view>
+								<text class="HJ-cell-txt-left">回收车：</text>
+								<text class="HJ-cell-txt-right">这里放名称</text>
+								<view class="HJ-cell-right">
+									<image src="/image/icon/xiangyou.png"></image>
+								</view>
+							</view>
+							<view class="HJ-item-hd-right fc-gray">已取消</view>
 						</view>
-						<text class="HJ-cell-txt-left">回收车：</text>
-						<text class="HJ-cell-txt-right">这里放名称</text>
-						<view class="HJ-cell-right">
-							<image src="/image/icon/xiangyou.png"></image>
+						<view class="HJ-item-dec border-b-gray">
+							<view class="HJ-item-dec-list margin-b-20">
+								<view class="flex-1">塑料类）矿泉水瓶</view>
+								<view class="flex-half">2kg </view>
+								<view>￥2.00</view>
+							</view>
+							<view class="HJ-item-dec-list">
+								<view class="flex-1">塑料类）矿泉水瓶</view>
+								<view class="flex-half">2kg </view>
+								<view>￥2.00</view>
+							</view>
+						</view>
+						<view class="HJ-item-dec-down border-b-gray">
+							<view class="HJ-item-dec-list">
+								<view class="flex-1 font-12">订单号：EE19256245455</view>
+								<view class=" font-12">合计金额：<text class="fc-green fz-14">￥2.00</text></view>
+							</view>
+						</view>
+						<view class="HJ-item-footer">
+							<view class="btn-gray-min">删除订单</view>
+							<view class="btn-red-min">确认收货</view>
 						</view>
 					</view>
-					<view class="HJ-item-hd-right fc-gray">已取消</view>
-				</view>
-				<view class="HJ-item-dec border-b-gray">
-					<view class="HJ-item-dec-list margin-b-20">
-						<view class="flex-1">塑料类）矿泉水瓶</view>
-						<view class="flex-half">2kg </view>
-						<view>￥2.00</view>
+					<view class="HJ-line"></view>
+
+					<view class="HJ-list-item ">
+						<view class="HJ-item-hd border-b-gray">
+							<view class="HJ-item-hd-left">
+								<view class="HJ-cell-left">
+									<image src="/image/icon/shangmen-lv.png"></image>
+								</view>
+								<text class="HJ-cell-txt-left">回收车：</text>
+								<text class="HJ-cell-txt-right">这里放名称</text>
+								<view class="HJ-cell-right">
+									<image src="/image/icon/xiangyou.png"></image>
+								</view>
+							</view>
+							<view class="HJ-item-hd-right fc-red">等待确认</view>
+						</view>
+						<view class="HJ-item-dec border-b-gray">
+							<view class="HJ-item-dec-list margin-b-20">
+								<view class="flex-1">塑料类）矿泉水瓶</view>
+								<view class="flex-half">2kg </view>
+								<view>￥2.00</view>
+							</view>
+							<view class="HJ-item-dec-list">
+								<view class="flex-1">塑料类）矿泉水瓶</view>
+								<view class="flex-half">2kg </view>
+								<view>￥2.00</view>
+							</view>
+						</view>
+						<view class="HJ-item-dec-down border-b-gray">
+							<view class="HJ-item-dec-list">
+								<view class="flex-1 font-12">订单号：EE19256245455</view>
+								<view class=" font-12">合计金额：<text class="fc-green fz-14">￥2.00</text></view>
+							</view>
+						</view>
+						<view class="HJ-item-footer">
+							<view class="btn-gray-min">删除订单</view>
+							<view class="btn-red-min">确认收货</view>
+						</view>
 					</view>
-					<view class="HJ-item-dec-list">
-						<view class="flex-1">塑料类）矿泉水瓶</view>
-						<view class="flex-half">2kg </view>
-						<view>￥2.00</view>
+					<view class="HJ-line"></view>
+
+
+					<view class="HJ-list-item ">
+						<view class="HJ-item-hd border-b-gray">
+							<view class="HJ-item-hd-left">
+								<view class="HJ-cell-left">
+									<image src="/image/icon/shangmen-lv.png"></image>
+								</view>
+								<text class="HJ-cell-txt-left">回收车：</text>
+								<text class="HJ-cell-txt-right">这里放名称</text>
+								<view class="HJ-cell-right">
+									<image src="/image/icon/xiangyou.png"></image>
+								</view>
+							</view>
+							<view class="HJ-item-hd-right fc-green">已完成</view>
+						</view>
+						<view class="HJ-item-dec border-b-gray">
+							<view class="HJ-item-dec-list margin-b-20">
+								<view class="flex-1">塑料类）矿泉水瓶</view>
+								<view class="flex-half">2kg </view>
+								<view>￥2.00</view>
+							</view>
+							<view class="HJ-item-dec-list">
+								<view class="flex-1">塑料类）矿泉水瓶</view>
+								<view class="flex-half">2kg </view>
+								<view>￥2.00</view>
+							</view>
+						</view>
+						<view class="HJ-item-dec-down border-b-gray">
+							<view class="HJ-item-dec-list">
+								<view class="flex-1 font-12">订单号：EE19256245455</view>
+								<view class=" font-12">合计金额：<text class="fc-green fz-14">￥2.00</text></view>
+							</view>
+						</view>
+						<view class="HJ-item-footer">
+							<view class="btn-gray-min">删除订单</view>
+							<view class="btn-red-min">确认收货</view>
+						</view>
 					</view>
+					<view class="HJ-line"></view>
+
 				</view>
-				<view class="HJ-item-dec-down border-b-gray">
-					<view class="HJ-item-dec-list">
-						<view class="flex-1 font-12">订单号：EE19256245455</view>
-						<view class=" font-12">合计金额：<text class="fc-green fz-14">￥2.00</text></view>
+
+			</view>
+		</swiper-item>
+
+		<swiper-item  class="swiperitem">
+			<view class="list_b">
+
+				<view class="list_b_container flex-1">
+					<view class="HJ-list-item ">
+						<view class="HJ-item-hd border-b-gray">
+							<view class="HJ-item-hd-left">
+								<view class="HJ-cell-left">
+									<image src="/image/icon/shangmen-lv.png"></image>
+								</view>
+								<text class="HJ-cell-txt-left">回收车：</text>
+								<text class="HJ-cell-txt-right">这里放名称</text>
+								<view class="HJ-cell-right">
+									<image src="/image/icon/xiangyou.png"></image>
+								</view>
+							</view>
+							<view class="HJ-item-hd-right fc-gray">已取消</view>
+						</view>
+						<view class="HJ-item-dec border-b-gray">
+							<view class="HJ-item-dec-list margin-b-20">
+								<view class="flex-1">塑料类）矿泉水瓶</view>
+								<view class="flex-half">2kg </view>
+								<view>￥2.00</view>
+							</view>
+							<view class="HJ-item-dec-list">
+								<view class="flex-1">塑料类）矿泉水瓶</view>
+								<view class="flex-half">2kg </view>
+								<view>￥2.00</view>
+							</view>
+						</view>
+						<view class="HJ-item-dec-down border-b-gray">
+							<view class="HJ-item-dec-list">
+								<view class="flex-1 font-12">订单号：EE19256245455</view>
+								<view class=" font-12">合计金额：<text class="fc-green fz-14">￥2.00</text></view>
+							</view>
+						</view>
+						<view class="HJ-item-footer">
+							<view class="btn-gray-min">删除订单</view>
+							<view class="btn-red-min">确认收货</view>
+						</view>
 					</view>
+					<view class="HJ-line"></view>
+
+					<view class="HJ-list-item ">
+						<view class="HJ-item-hd border-b-gray">
+							<view class="HJ-item-hd-left">
+								<view class="HJ-cell-left">
+									<image src="/image/icon/shangmen-lv.png"></image>
+								</view>
+								<text class="HJ-cell-txt-left">回收车：</text>
+								<text class="HJ-cell-txt-right">这里放名称</text>
+								<view class="HJ-cell-right">
+									<image src="/image/icon/xiangyou.png"></image>
+								</view>
+							</view>
+							<view class="HJ-item-hd-right fc-red">等待确认</view>
+						</view>
+						<view class="HJ-item-dec border-b-gray">
+							<view class="HJ-item-dec-list margin-b-20">
+								<view class="flex-1">塑料类）矿泉水瓶</view>
+								<view class="flex-half">2kg </view>
+								<view>￥2.00</view>
+							</view>
+							<view class="HJ-item-dec-list">
+								<view class="flex-1">塑料类）矿泉水瓶</view>
+								<view class="flex-half">2kg </view>
+								<view>￥2.00</view>
+							</view>
+						</view>
+						<view class="HJ-item-dec-down border-b-gray">
+							<view class="HJ-item-dec-list">
+								<view class="flex-1 font-12">订单号：EE19256245455</view>
+								<view class=" font-12">合计金额：<text class="fc-green fz-14">￥2.00</text></view>
+							</view>
+						</view>
+						<view class="HJ-item-footer">
+							<view class="btn-gray-min">删除订单</view>
+							<view class="btn-red-min">确认收货</view>
+						</view>
+					</view>
+					<view class="HJ-line"></view>
+
+
+					<view class="HJ-list-item ">
+						<view class="HJ-item-hd border-b-gray">
+							<view class="HJ-item-hd-left">
+								<view class="HJ-cell-left">
+									<image src="/image/icon/shangmen-lv.png"></image>
+								</view>
+								<text class="HJ-cell-txt-left">回收车：</text>
+								<text class="HJ-cell-txt-right">这里放名称</text>
+								<view class="HJ-cell-right">
+									<image src="/image/icon/xiangyou.png"></image>
+								</view>
+							</view>
+							<view class="HJ-item-hd-right fc-green">已完成</view>
+						</view>
+						<view class="HJ-item-dec border-b-gray">
+							<view class="HJ-item-dec-list margin-b-20">
+								<view class="flex-1">塑料类）矿泉水瓶</view>
+								<view class="flex-half">2kg </view>
+								<view>￥2.00</view>
+							</view>
+							<view class="HJ-item-dec-list">
+								<view class="flex-1">塑料类）矿泉水瓶</view>
+								<view class="flex-half">2kg </view>
+								<view>￥2.00</view>
+							</view>
+						</view>
+						<view class="HJ-item-dec-down border-b-gray">
+							<view class="HJ-item-dec-list">
+								<view class="flex-1 font-12">订单号：EE19256245455</view>
+								<view class=" font-12">合计金额：<text class="fc-green fz-14">￥2.00</text></view>
+							</view>
+						</view>
+						<view class="HJ-item-footer">
+							<view class="btn-gray-min">删除订单</view>
+							<view class="btn-red-min">确认收货</view>
+						</view>
+					</view>
+					<view class="HJ-line"></view>
+
 				</view>
-				<view class="HJ-item-footer">
-					<view class="btn-gray-min">删除订单</view>
-					<view class="btn-red-min">确认收货</view>
+
+			</view>
+		</swiper-item>
+
+
+		<swiper-item  class="swiperitem">
+			<view class="list_b">
+
+				<view class="list_b_container flex-1">
+					<view class="HJ-list-item ">
+						<view class="list-none">
+							<image src="/image/default/zanwushuju.png"></image>
+						</view>
+					</view>
 				</view>
 			</view>
-			<view class="HJ-line"></view>
-
-			<view class="HJ-list-item ">
-				<view class="HJ-item-hd border-b-gray">
-					<view class="HJ-item-hd-left">
-						<view class="HJ-cell-left">
-							<image src="/image/icon/shangmen-lv.png"></image>
-						</view>
-						<text class="HJ-cell-txt-left">回收车：</text>
-						<text class="HJ-cell-txt-right">这里放名称</text>
-						<view class="HJ-cell-right">
-							<image src="/image/icon/xiangyou.png"></image>
-						</view>
-					</view>
-					<view class="HJ-item-hd-right fc-red">等待确认</view>
-				</view>
-				<view class="HJ-item-dec border-b-gray">
-					<view class="HJ-item-dec-list margin-b-20">
-						<view class="flex-1">塑料类）矿泉水瓶</view>
-						<view class="flex-half">2kg </view>
-						<view>￥2.00</view>
-					</view>
-					<view class="HJ-item-dec-list">
-						<view class="flex-1">塑料类）矿泉水瓶</view>
-						<view class="flex-half">2kg </view>
-						<view>￥2.00</view>
-					</view>
-				</view>
-				<view class="HJ-item-dec-down border-b-gray">
-					<view class="HJ-item-dec-list">
-						<view class="flex-1 font-12">订单号：EE19256245455</view>
-						<view class=" font-12">合计金额：<text class="fc-green fz-14">￥2.00</text></view>
-					</view>
-				</view>
-				<view class="HJ-item-footer">
-					<view class="btn-gray-min">删除订单</view>
-					<view class="btn-red-min">确认收货</view>
-				</view>
-			</view>
-			<view class="HJ-line"></view>
+		</swiper-item>
 
 
-			<view class="HJ-list-item ">
-				<view class="HJ-item-hd border-b-gray">
-					<view class="HJ-item-hd-left">
-						<view class="HJ-cell-left">
-							<image src="/image/icon/shangmen-lv.png"></image>
-						</view>
-						<text class="HJ-cell-txt-left">回收车：</text>
-						<text class="HJ-cell-txt-right">这里放名称</text>
-						<view class="HJ-cell-right">
-							<image src="/image/icon/xiangyou.png"></image>
-						</view>
-					</view>
-					<view class="HJ-item-hd-right fc-green">已完成</view>
-				</view>
-				<view class="HJ-item-dec border-b-gray">
-					<view class="HJ-item-dec-list margin-b-20">
-						<view class="flex-1">塑料类）矿泉水瓶</view>
-						<view class="flex-half">2kg </view>
-						<view>￥2.00</view>
-					</view>
-					<view class="HJ-item-dec-list">
-						<view class="flex-1">塑料类）矿泉水瓶</view>
-						<view class="flex-half">2kg </view>
-						<view>￥2.00</view>
-					</view>
-				</view>
-				<view class="HJ-item-dec-down border-b-gray">
-					<view class="HJ-item-dec-list">
-						<view class="flex-1 font-12">订单号：EE19256245455</view>
-						<view class=" font-12">合计金额：<text class="fc-green fz-14">￥2.00</text></view>
-					</view>
-				</view>
-				<view class="HJ-item-footer">
-					<view class="btn-gray-min">删除订单</view>
-					<view class="btn-red-min">确认收货</view>
-				</view>
-			</view>
-			<view class="HJ-line"></view>
-
-		</view>
-
-	</view>
-</swiper-item>
-
-<swiper-item>
-<view class="list_b">
-
-		<view class="list_b_container flex-1">
-			<view class="HJ-list-item ">
-				<view class="HJ-item-hd border-b-gray">
-					<view class="HJ-item-hd-left">
-						<view class="HJ-cell-left">
-							<image src="/image/icon/shangmen-lv.png"></image>
-						</view>
-						<text class="HJ-cell-txt-left">回收车：</text>
-						<text class="HJ-cell-txt-right">这里放名称</text>
-						<view class="HJ-cell-right">
-							<image src="/image/icon/xiangyou.png"></image>
-						</view>
-					</view>
-					<view class="HJ-item-hd-right fc-gray">已取消</view>
-				</view>
-				<view class="HJ-item-dec border-b-gray">
-					<view class="HJ-item-dec-list margin-b-20">
-						<view class="flex-1">塑料类）矿泉水瓶</view>
-						<view class="flex-half">2kg </view>
-						<view>￥2.00</view>
-					</view>
-					<view class="HJ-item-dec-list">
-						<view class="flex-1">塑料类）矿泉水瓶</view>
-						<view class="flex-half">2kg </view>
-						<view>￥2.00</view>
-					</view>
-				</view>
-				<view class="HJ-item-dec-down border-b-gray">
-					<view class="HJ-item-dec-list">
-						<view class="flex-1 font-12">订单号：EE19256245455</view>
-						<view class=" font-12">合计金额：<text class="fc-green fz-14">￥2.00</text></view>
-					</view>
-				</view>
-				<view class="HJ-item-footer">
-					<view class="btn-gray-min">删除订单</view>
-					<view class="btn-red-min">确认收货</view>
-				</view>
-			</view>
-			<view class="HJ-line"></view>
-
-			<view class="HJ-list-item ">
-				<view class="HJ-item-hd border-b-gray">
-					<view class="HJ-item-hd-left">
-						<view class="HJ-cell-left">
-							<image src="/image/icon/shangmen-lv.png"></image>
-						</view>
-						<text class="HJ-cell-txt-left">回收车：</text>
-						<text class="HJ-cell-txt-right">这里放名称</text>
-						<view class="HJ-cell-right">
-							<image src="/image/icon/xiangyou.png"></image>
-						</view>
-					</view>
-					<view class="HJ-item-hd-right fc-red">等待确认</view>
-				</view>
-				<view class="HJ-item-dec border-b-gray">
-					<view class="HJ-item-dec-list margin-b-20">
-						<view class="flex-1">塑料类）矿泉水瓶</view>
-						<view class="flex-half">2kg </view>
-						<view>￥2.00</view>
-					</view>
-					<view class="HJ-item-dec-list">
-						<view class="flex-1">塑料类）矿泉水瓶</view>
-						<view class="flex-half">2kg </view>
-						<view>￥2.00</view>
-					</view>
-				</view>
-				<view class="HJ-item-dec-down border-b-gray">
-					<view class="HJ-item-dec-list">
-						<view class="flex-1 font-12">订单号：EE19256245455</view>
-						<view class=" font-12">合计金额：<text class="fc-green fz-14">￥2.00</text></view>
-					</view>
-				</view>
-				<view class="HJ-item-footer">
-					<view class="btn-gray-min">删除订单</view>
-					<view class="btn-red-min">确认收货</view>
-				</view>
-			</view>
-			<view class="HJ-line"></view>
+	</swiper>
 
 
-			<view class="HJ-list-item ">
-				<view class="HJ-item-hd border-b-gray">
-					<view class="HJ-item-hd-left">
-						<view class="HJ-cell-left">
-							<image src="/image/icon/shangmen-lv.png"></image>
-						</view>
-						<text class="HJ-cell-txt-left">回收车：</text>
-						<text class="HJ-cell-txt-right">这里放名称</text>
-						<view class="HJ-cell-right">
-							<image src="/image/icon/xiangyou.png"></image>
-						</view>
-					</view>
-					<view class="HJ-item-hd-right fc-green">已完成</view>
-				</view>
-				<view class="HJ-item-dec border-b-gray">
-					<view class="HJ-item-dec-list margin-b-20">
-						<view class="flex-1">塑料类）矿泉水瓶</view>
-						<view class="flex-half">2kg </view>
-						<view>￥2.00</view>
-					</view>
-					<view class="HJ-item-dec-list">
-						<view class="flex-1">塑料类）矿泉水瓶</view>
-						<view class="flex-half">2kg </view>
-						<view>￥2.00</view>
-					</view>
-				</view>
-				<view class="HJ-item-dec-down border-b-gray">
-					<view class="HJ-item-dec-list">
-						<view class="flex-1 font-12">订单号：EE19256245455</view>
-						<view class=" font-12">合计金额：<text class="fc-green fz-14">￥2.00</text></view>
-					</view>
-				</view>
-				<view class="HJ-item-footer">
-					<view class="btn-gray-min">删除订单</view>
-					<view class="btn-red-min">确认收货</view>
-				</view>
-			</view>
-			<view class="HJ-line"></view>
-
-		</view>
-
-	</view>
-</swiper-item>
-
-</swiper>
-
-	
 
 </view>
