@@ -17,10 +17,10 @@
 		<view class="container_info_left flex-min">
 			<image src="/image/icon/huishou2.png"></image>
 		</view>
-		<navigator url="/pages/order/shanmenshouhuo" class="container_info_center flex-1">
+		<view class="container_info_center flex-1">
 			<view class="center_title">回收</view>
 			<view class="center_content">立即查看我回收的库存</view>
-		</navigator>
+		</view>
 		<view class="container_info_right flex-min">
 			<image src="/image/icon/youjiantou2.png"></image>
 		</view>
