@@ -1,7 +1,17 @@
 <!--pages/order/orderdetail.wxml-->
 <view class="container">
+  <view class="car-order-status">
+    <view class="car-order-status-list">
+      <text>订单状态:</text>
+      <text>等待确认</text>
+    </view>
+    <view class="car-order-status-list">
+      <text>订单总金额:</text>
+      <text class="right">￥25.62</text>
+    </view>
+  </view>
   <view class="car-info">
-    <view class="car-info-list" >
+    <view class="car-info-list margin-t-20" >
       <view class="margin-r-20"><image src="/image/icon/shangmen-lv.png"></image></view>
       <view class="margin-r-20 car-info-list-text">回收车:</view>
       <text class="car-info-list-right">津F12345</text>
@@ -13,7 +23,7 @@
       <text class="car-info-list-right">宝宝</text>
     </view>
 
-    <view class="car-info-list" >
+    <view class="car-info-list margin-b-20" >
       <view class="margin-r-20"><image src="/image/icon/dianhua-lv-xi.png"></image></view>
       <view class="margin-r-20 car-info-list-text">联系电话:</view>
       <text class="car-info-list-right">15002285222</text>

@@ -412,14 +412,16 @@
   box-sizing: border-box;
   white-space: nowrap;
 }
-.tab-bar-item{  
+.tab-bar-item,.tab-bar-item-noimg{  
   display: inline-block;
   background-color:#f8f8f8;
   width:240rpx;
-  height:140px;
   border-radius: 10rpx;
   margin-right:20rpx;
-  padding:20rpx;
+  padding:20rpx;  
+}
+.tab-bar-item-noimg{
+  padding:40rpx;
 }
 
 .item_img image{
@@ -427,13 +429,21 @@
   height:60rpx;
   margin:0 auto 20rpx ;
 }
-.item_title{
+.item_title,.item_title-noimg{
   font-size:24rpx;
   line-height: 24rpx;
   flex:1;
   margin-bottom:60rpx;
 }
-.item_footer .item_price{
+.item_title-noimg{
+  margin-bottom:0;
+  padding-bottom:40rpx;
+}
+.item_footer{
+  height:40rpx;
+  margin-top:10rpx;
+}
+.item_footer .item_price{  
   font-size:40rpx;
   line-height: 40rpx;
 }

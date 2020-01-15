@@ -117,23 +117,39 @@
   <view class="list_b">
     <scroll-view scroll-x="true" class="scroll-tab-bar">
 
-      <view class="tab-bar-item">
-        <!-- <view class="item_img">
+      <!-- <view class="tab-bar-item">
+        <view class="item_img">
           <image src="/image/icon/zhike.png"></image>
-        </view> -->
+        </view>
         <view class="item_title">纸壳（黄板）</view>
-       
+        <view class="item_footer">
+          <text class="item_price">2.3</text>
+          <text class="item_unit">~</text>
+        </view>
+        <view class="item_footer">
+          <text class="item_price">1.5</text>
+          <text class="item_unit">元/公斤</text>
+        </view>
+      </view> -->
+
+      <view class="tab-bar-item-noimg">
+        
+        <view class="item_title-noimg">纸壳（黄板）</view>
+        <view class="item_footer">
+          <text class="item_price">2.3</text>
+          <text class="item_unit">~</text>
+        </view>
         <view class="item_footer">
           <text class="item_price">1.5</text>
           <text class="item_unit">元/公斤</text>
         </view>
       </view>
-      <view class="tab-bar-item">
-        <!-- <view class="item_img">
-          <image src="/image/icon/xiyiji.png"></image>
-        </view> -->
-        <view class="item_title">洗衣机</view>
-        <view class="item_footer">
+
+
+      <view class="tab-bar-item-noimg">
+       
+        <view class="item_title-noimg">洗衣机</view>
+         <view class="item_footer">
           <text class="item_price">0.6</text>
           <text class="item_unit">~</text>
         </view>
@@ -144,11 +160,12 @@
         </view>
       </view>
 
-      <view class="tab-bar-item">
-        <!-- <view class="item_img">
-          <image src="/image/icon/kuangquanshui.png"></image>
-        </view> -->
-        <view class="item_title">饮料瓶</view>
+      <view class="tab-bar-item-noimg">       
+        <view class="item_title-noimg">饮料瓶</view>
+        <view class="item_footer">        
+          <text class="item_price"></text>
+          <text class="item_unit"></text>
+        </view>
         <view class="item_footer">        
           <text class="item_price">1.5</text>
           <text class="item_unit">元/公斤</text>

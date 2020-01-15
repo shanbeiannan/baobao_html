@@ -1,4 +1,23 @@
 /* pages/order/orderdetail.wxss */
+.car-order-status{
+  background-color:#21c179;  
+  width:100%;  
+  color:#fff;
+}
+.car-order-status-list{
+  padding:25rpx 36rpx;
+}
+.car-order-status-list:last-child{
+  padding:0 36rpx 25rpx 36rpx;
+}
+.car-order-status-list text{
+  margin-right:15rpx;
+}
+.car-order-status-list text.right{
+  font-size:46rpx;
+  font-weight: bolder;
+}
+
 .car-info{
   width:100%;
   border-bottom:20rpx #f8f8f8 solid;
@@ -12,8 +31,9 @@
 }
 
 .car-info-list image{
-  width:60rpx;
-  height:60rpx;
+  width:50rpx;
+  height:50rpx;
+  vertical-align: middle;
 }
 .car-info-list-text{
   font-weight: bold;
