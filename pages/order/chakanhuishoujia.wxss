@@ -2,6 +2,13 @@
 page {
   background-color: #f8f8f8;
 }
+.show{
+  display:block;
+}
+.hidde{
+  display:none;
+}
+
 .delimg-fr {
   width: 40rpx;
   height: 40rpx;
@@ -29,15 +36,17 @@ page {
 .HJ-product-dec{
   padding:25rpx 0;
   font-size:26rpx;  
+  
 }
 /* .HJ-product-dec-rigth{  
-
+  
 } */
 .HJ-product-price{   
   display:flex;
   flex-direction: row;  
   margin:10rpx auto;
- 
+  align-content: center;
+  justify-content: flex-end;
 }
 
 .HJ-product-price-money{

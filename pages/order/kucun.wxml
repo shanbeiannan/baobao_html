@@ -23,7 +23,7 @@
 							<view class="HJ-product-price-money HJ-product-dec">
 								<text>共</text>
                 <input placeholder="输入重量" ></input>
-								<text>kg</text>
+								<text>公斤</text>
 							</view>
 
 						</view>
@@ -42,7 +42,7 @@
 							<view class="HJ-product-price-money HJ-product-dec">
 								<text>共</text>
                 <input placeholder="输入重量" ></input>
-								<text>kg</text>
+								<text>个</text>
 							</view>
 
 						</view>

@@ -230,22 +230,16 @@
   margin: 5px;
 }
 
-/*删除按钮*/
-
-/* .delete {
-  position: absolute;
-  height: 20px;
-  bottom: 0;
-  width: 100%;
-  background: #ccc;
-  opacity: 0.8;
+.fl{
+  text-align: left;
+}
+.fr{
+  text-align: right;
+}
+.fc{
+  text-align: center;
 }
 
-.delete image {
-  position: absolute;
-  width: 20px;
-  height: 20px;
-} */
 /**首页*/
 .head{
   margin-top:70rpx;

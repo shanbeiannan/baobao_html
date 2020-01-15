@@ -1,13 +1,13 @@
 /* pages/ditu.wxss */
 .HJ-map-area{
   width:100%;
-  height:350px;
+  height:300px;
   background-color:#f8f8f8;
   position: relative;
 }
 .HJ-map-area map{
   width:100%;
-  height:350px;
+  height:300px;
 }
 .HJ-map-tip{
   position: absolute;

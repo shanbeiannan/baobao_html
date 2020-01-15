@@ -1,4 +1,12 @@
 /* pages/order/kucun.wxss */
+.show{
+  display:block;
+}
+.hidde{
+  display:none;
+}
+
+
 page {
   background-color: #f8f8f8;
 }
@@ -49,4 +57,8 @@ page {
 .HJ-product-price-money input{
   width:100rpx;
   margin-left:10rpx;
+}
+.HJ-product-price-money text:last-child{
+  width:60rpx;
+  text-align: left;
 }
