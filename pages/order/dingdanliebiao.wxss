@@ -83,6 +83,8 @@ page{
   display:flex;
   flex-direction: row;
   align-items: center;
+  text-align: left;
+  padding-left:20rpx;
 }
 
 .HJ-item-dec-down {
