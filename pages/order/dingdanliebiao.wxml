@@ -42,7 +42,7 @@
 						<view class="HJ-item-dec-down border-b-gray">
 							<view class="HJ-item-dec-list">
 								<view class="flex-1 fz-14 fl">订单号：EE19256245455</view>
-								<view class="fz-14 fr">合计金额：<text class="fc-green fz-14">￥2.00</text></view>
+								<view class="fz-14 fr">合计金额：<text class="fc-green fz-16">￥2.00</text></view>
 							</view>
 						</view>
 						<view class="HJ-item-footer">
@@ -80,8 +80,8 @@
 						</view>
 						<view class="HJ-item-dec-down border-b-gray">
 							<view class="HJ-item-dec-list">
-								<view class="flex-1 font-12 fl">订单号：EE19256245455</view>
-								<view class=" font-12 fr">合计金额：<text class="fc-green fz-14">￥2.00</text></view>
+								<view class="flex-1 fz-14 fl">订单号：EE19256245455</view>
+								<view class="fz-14 fr">合计金额：<text class="fc-green fz-16">￥2.00</text></view>
 							</view>
 						</view>
 						<view class="HJ-item-footer">
@@ -120,8 +120,8 @@
 						</view>
 						<view class="HJ-item-dec-down border-b-gray">
 							<view class="HJ-item-dec-list">
-								<view class="flex-1 font-12 fl">订单号：EE19256245455</view>
-								<view class=" font-12 fr">合计金额：<text class="fc-green fz-14">￥2.00</text></view>
+								<view class="flex-1 fz-14 fl">订单号：EE19256245455</view>
+								<view class="fz-14 fr">合计金额：<text class="fc-green fz-16">￥2.00</text></view>
 							</view>
 						</view>
 						<view class="HJ-item-footer">
