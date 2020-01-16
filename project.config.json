@@ -158,6 +158,13 @@
 					"id": -1,
 					"name": "库存2-有单价",
 					"pathName": "pages/order/kucun2",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "订单物品信息修改",
+					"pathName": "pages/order/dingdanxiugai",
 					"scene": null
 				}
 			]

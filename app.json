@@ -19,7 +19,8 @@
     "pages/xuanzefenlei",
     "pages/order/dingdanliebiao",
     "pages/order/kucun",
-    "pages/order/kucun2"
+    "pages/order/kucun2",
+    "pages/order/dingdanxiugai"
   ],
   "tabBar": {
     "list": [

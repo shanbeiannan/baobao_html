@@ -1,0 +1,31 @@
+/* pages/order/dingdanxiugai.wxss */
+page{
+  background-color:#f8f8f8;
+}
+.delimg-fr {
+  width: 40rpx;
+  height: 40rpx;
+  position: absolute;
+  top: -10rpx;
+  right: -10rpx;
+}
+.HJ-cells{
+  width:98%;
+}
+
+.HJ-product-list-edit,.HJ-product-list-edit.active{
+  display:flex;
+  flex-direction: column;
+  border:1px solid #eee;
+  border-radius:15rpx;
+  margin-bottom:25rpx;
+}
+
+.HJ-product-list-edit.active{  
+  border:1px solid #d6f4e7;
+}
+.HJ-product-list-edit .HJ-product-text,.HJ-product-list-edit.active .HJ-product-text{
+  text-align: left;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
