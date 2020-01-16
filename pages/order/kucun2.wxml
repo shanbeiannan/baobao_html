@@ -1,6 +1,6 @@
 <!--pages/order/kucun.wxml-->
 <view class="container margin-none">
-	<view class="HJ-container ">
+	<view class="HJ-container">
 		<view class="HJ-list-left" style="height:{{systemHeight-20}}px;">
 			<view class="{{isShowChild == 0 ?'active':''}}" bindtap="showClassChild" data-index="0">纸类</view>
 			<view class="{{isShowChild == 1 ?'active':''}}" bindtap="showClassChild" data-index="1">塑料</view>
@@ -13,11 +13,24 @@
 
 			<view class="margin-b-20 fz-14">以下库存为累加数量：</view>
 
-			<view class="HJ-product border-b-gray">
-				<view class="HJ-product-list">
-					<view class="HJ-product-dec">
+			<view class="HJ-product border-b-gray padding-none">
+       <view class="HJ-product-list">
+         <view class="HJ-product-dec">
 						白色透明丙烯
 					</view>
+        </view>
+				<view class="HJ-product-list">
+
+					<view class="HJ-product-dec-rigth">
+						<view class="HJ-product-price">
+							<view class="HJ-product-price-money HJ-product-dec padding-none">
+               <text>单价</text>										
+								<input class="min" placeholder="单价"></input>
+								<text>元/公斤</text>
+							</view>
+						</view>
+					</view>
+
 					<view class="HJ-product-dec-rigth">
 						<view class="HJ-product-price">
 							<view class="HJ-product-price-money HJ-product-dec">
@@ -25,18 +38,34 @@
 								<input placeholder="输入重量"></input>
 								<text>公斤</text>
 							</view>
-
 						</view>
-
 					</view>
+
 				</view>
+
+
 			</view>
 
-			<view class="HJ-product border-b-gray">
-				<view class="HJ-product-list">
-					<view class="HJ-product-dec">
+			<view class="HJ-product border-b-gray padding-none">
+
+        <view class="HJ-product-list">
+         <view class="HJ-product-dec">
 						白色透明丙烯
 					</view>
+        </view>
+
+				<view class="HJ-product-list">
+
+					<view class="HJ-product-dec-rigth">
+						<view class="HJ-product-price">
+							<view class="HJ-product-price-money HJ-product-dec padding-none">
+                <text>单价</text>							
+								<input class="min" placeholder="单价"></input>
+								<text>元/个</text>
+							</view>
+						</view>
+					</view>
+
 					<view class="HJ-product-dec-rigth">
 						<view class="HJ-product-price">
 							<view class="HJ-product-price-money HJ-product-dec">
@@ -44,11 +73,12 @@
 								<input placeholder="输入重量"></input>
 								<text>个</text>
 							</view>
-
 						</view>
-
 					</view>
+
 				</view>
+
+
 			</view>
 
 

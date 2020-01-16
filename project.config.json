@@ -151,6 +151,13 @@
 					"id": -1,
 					"name": "库存",
 					"pathName": "pages/order/kucun",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "库存2-有单价",
+					"pathName": "pages/order/kucun2",
 					"scene": null
 				}
 			]

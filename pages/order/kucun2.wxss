@@ -1,0 +1,4 @@
+/* pages/order/kucun2.wxss */
+page{
+  background-color:#f8f8f8;
+}

@@ -1,3 +1,13 @@
+.show{
+  display:block;
+}
+.hidde{
+  display:none;
+}
+page{
+  overflow:hidden;
+}
+
 .bg-wite {
   background-color: #fff;
 }
@@ -194,7 +204,9 @@
   padding: 10px 24px !important;
   border-radius: 8px !important;
 }
-
+.padding-none{
+  padding:0 !important;
+}
 .placholder {
   font-size: 30rpx;
   /* font-weight: 0; */
@@ -734,12 +746,12 @@
   height: 100%;
   display: flex;
   flex-direction: row;
-  padding: 0 25rpx 25rpx;
+  padding: 0 0 25rpx;
 }
 
 .HJ-list-left view {
   padding: 25rpx;
-  font-size:32rpx;
+  font-size:28rpx;
 }
 
 .HJ-list-left view.active {
@@ -755,6 +767,7 @@
 .HJ-list-right {
   padding: 25rpx;
   background-color: #fff;
+  overflow:hidden;
 }
 
 .HJ-product {
@@ -816,7 +829,7 @@
 
 .HJ-product-dec input{
   background-color:#f8f8f8;
-  padding:15rpx 25rpx;
+  padding:10rpx 20rpx;
   border-radius:10rpx;
   margin-right:10rpx;
   color:#21c179;
@@ -824,6 +837,7 @@
 }
 .HJ-product-dec text{
   font-size:24rpx;
+
 }
 .HJ-product-dec .input-placeholder{
   font-size:24rpx;
@@ -847,4 +861,68 @@
 .HJ-line{
   width:100%;
   border-top:25rpx solid #f8f8f8;
+}
+
+/**库存页*/
+.delimg-fr {
+  width: 40rpx;
+  height: 40rpx;
+  position: absolute;
+  top: -10rpx;
+  right: -10rpx;
+}
+.HJ-cells{
+  width:98%;
+}
+
+.HJ-product-text{
+  margin-right:0;
+  padding: 10rpx 20rpx;
+  font-size:26rpx;
+  line-height:52rpx;
+}
+
+.HJ-product-list{
+  display:flex;
+  align-items: center;
+  justify-content:space-between ;
+  margin-bottom: 0;
+  text-align: right;
+}
+.HJ-product-dec{
+  padding:26rpx 0 20rpx 10rpx;
+  font-size:26rpx;  
+}
+
+.HJ-product-price{   
+  display:flex;
+  flex-direction: row;  
+  margin:10rpx auto;
+ 
+}
+
+.HJ-product-price-money{
+  padding:10rpx;
+  font-size:26rpx;
+  display:flex;
+  flex-direction: row;
+  line-height: 1.4rem;
+
+}
+.HJ-product-price-money input{
+  width:80rpx;
+  margin-left:10rpx;
+  color:#21c179;  
+}
+.HJ-product-price-money input.min{
+  width:50rpx;
+  margin-left:10rpx;
+  color:#21c179;  
+}
+.HJ-product-price-money text{
+  min-width:65rpx;
+}
+.HJ-product-price-money text:last-child{
+  width:80rpx;
+  text-align: left;
 }

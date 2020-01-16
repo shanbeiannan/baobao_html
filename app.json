@@ -18,7 +18,8 @@
     "pages/login",
     "pages/xuanzefenlei",
     "pages/order/dingdanliebiao",
-    "pages/order/kucun"
+    "pages/order/kucun",
+    "pages/order/kucun2"
   ],
   "tabBar": {
     "list": [
