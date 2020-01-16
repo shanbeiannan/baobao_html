@@ -47,14 +47,14 @@
 						<image class="content-tip-img" src="/image/icon/duigou.png"></image>
 					</view>
 					<view class="HJ-product-dec">
-            <text>单价： </text>
+            <text class="HJ-product-minu">单价： </text>
 						<input placeholder="单价" class="flex-half"></input>
-						<text>元/公斤</text>
+						<text class="flex-min">元/公斤</text>
 					</view>
           <view class="HJ-product-dec">
-            <text>共</text>
-						<input placeholder="输入重量" class="flex-half"></input>
-						<text>公斤</text>
+            <text class="HJ-product-minu">共</text>
+						<input placeholder="输入重量" class="HJ-product-text-edit flex-half"></input>
+						<text class="flex-min">公斤</text>
 					</view>
 				</view>
 
@@ -65,14 +65,14 @@
 						<image class="content-tip-img" src="/image/icon/duigou.png"></image>
 					</view>
 					<view class="HJ-product-dec">
-            <text>单价： </text>
+            <text class="HJ-product-minu">单价： </text>
 						<input placeholder="单价" class="flex-half"></input>
-						<text>元/公斤</text>
+						<text class="flex-min">元/公斤</text>
 					</view>
           <view class="HJ-product-dec">
-            <text>共</text>
-						<input placeholder="输入重量" class="flex-half"></input>
-						<text>公斤</text>
+            <text class="HJ-product-minu">共</text>
+						<input placeholder="输入重量" class="HJ-product-text-edit flex-half"></input>
+						<text class="flex-min">公斤</text>
 					</view>
 				</view>
 
