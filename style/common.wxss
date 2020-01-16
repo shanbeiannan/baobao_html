@@ -861,17 +861,6 @@
 }
 
 /**库存页*/
-.delimg-fr {
-  width: 40rpx;
-  height: 40rpx;
-  position: absolute;
-  top: -10rpx;
-  right: -10rpx;
-}
-.HJ-cells{
-  width:98%;
-}
-
 .HJ-product-text{
   margin-right:0;
   padding: 10rpx 20rpx;
