@@ -689,6 +689,7 @@
 
 .HJ-item-dec {
   padding:25rpx 0;
+  font-size:28rpx;
 }
 
 .HJ-item-dec-list{
