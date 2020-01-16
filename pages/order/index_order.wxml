@@ -14,7 +14,12 @@
 
 <navigator url="/pages/order/kucun" hover-class="none">库存</navigator>
 
+<navigator url="/pages/order/kucun2" hover-class="none">库存2</navigator>
+
 <navigator url="/pages/order/dingdanliebiao" hover-class="none">订单列表</navigator>
+
+<navigator url="/pages/order/dingdanxiugai" hover-class="none">订单修改</navigator>
+
 
 首页进入的
 <navigator url="/pages/fujindaishoudian" hover-class="none">附近代收点</navigator>
