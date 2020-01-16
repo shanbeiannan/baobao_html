@@ -4,9 +4,6 @@
 .hidde{
   display:none;
 }
-page{
-  overflow:hidden;
-}
 
 .bg-wite {
   background-color: #fff;
