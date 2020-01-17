@@ -101,7 +101,7 @@ button:not([size='mini']){
  color:#999;
 }
 
-.HJ-btn{
+.HJ-my-btn{
   color:#fff;
   background-color:#fec244;
   border-radius: 45rpx;
