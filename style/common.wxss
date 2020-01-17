@@ -909,6 +909,6 @@
   min-width:65rpx;
 }
 .HJ-product-price-money text:last-child{
-  width:80rpx;
+  min-width:80rpx;
   text-align: left;
 }

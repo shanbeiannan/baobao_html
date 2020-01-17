@@ -52,8 +52,8 @@
 						<text class="flex-min">元/公斤</text>
 					</view>
           <view class="HJ-product-dec">
-            <text class="HJ-product-minu">共</text>
-						<input placeholder="输入重量" class="HJ-product-text-edit flex-half"></input>
+            <text class="HJ-product-minu">总量：</text>
+						<input placeholder="输入总量" class="HJ-product-text-edit flex-half"></input>
 						<text class="flex-min">公斤</text>
 					</view>
 				</view>
@@ -70,8 +70,8 @@
 						<text class="flex-min">元/公斤</text>
 					</view>
           <view class="HJ-product-dec">
-            <text class="HJ-product-minu">共</text>
-						<input placeholder="输入重量" class="HJ-product-text-edit flex-half"></input>
+            <text class="HJ-product-minu">总量：</text>
+						<input placeholder="输入总量" class="HJ-product-text-edit flex-half"></input>
 						<text class="flex-min">公斤</text>
 					</view>
 				</view>

@@ -21,7 +21,7 @@ page{
   margin-bottom:25rpx;
 }
 .HJ-product-minu{
-  margin-left:10rpx;
+  margin-left:20rpx;
   flex:0.15;
 }
 .HJ-product-text-edit{
