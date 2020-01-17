@@ -12,6 +12,11 @@ page{
 .HJ-cells{
   width:98%;
 }
+button[size='mini']{
+  font-size:12px;
+  font-weight: 0;
+}
+
 
 .HJ-product-list-edit,.HJ-product-list-edit.active{
   display:flex;
@@ -35,3 +40,4 @@ page{
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
 }
+

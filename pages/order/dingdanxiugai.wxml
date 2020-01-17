@@ -11,14 +11,14 @@
 		<view class="HJ-list-right flex-1" style="height:{{systemHeight-40}}px;max-height:{{systemHeight-40}}px;overflow-y:scroll">
 
 			<!-- <view class="margin-b-20 fz-14">订单修改：</view> -->
-	    <view class="HJ-selected border-b-gray">
+			<view class="HJ-selected border-b-gray">
 				<view class="margin-b-20 fz-14">您已选择：</view>
-				<view >
-					<view class="HJ-cells site padding-t-none">
+				<view>
+					<view class="HJ-cells site padding-t-none fz-14">
 						<view class="HJ-cell-list">
-							<view class="flex-half">塑料类:</view>
-							<view class="flex-1">
-								<text class="margin-r-40">矿泉水</text>
+							<view class="margin-r-20 fz-14">塑料类:</view>
+							<view class="fz-14">
+								<text class="margin-r-40 fz-14">矿泉水</text>
 								<text>2kg</text>
 							</view>
 						</view>
@@ -27,58 +27,85 @@
 
 					<view class="HJ-cells site padding-t-none">
 						<view class="HJ-cell-list">
-							<view class="flex-half">塑料类:</view>
-							<view class="flex-1">
-								<text class="margin-r-40">白色透明丙烯筐</text>
+							<view class="margin-r-20 fz-14">塑料类:</view>
+							<view class="fz-14">
+								<text class="margin-r-40 fz-14">白色透明丙烯筐</text>
 								<text>2kg</text>
 							</view>
 						</view>
 						<image class="delimg-fr" src="/image/icon/shanchu.png"></image>
-					</view>		
+					</view>
 				</view>
 			</view>
 
 
-      <view class="HJ-product" >
+			<view class="HJ-product">
 				<view class="HJ-product-list-edit active">
 					<view class="HJ-product-text active">
-						纸壳（通货）
+						<view class="HJ-product-list">
+							<view>
+								白色透明丙烯
+							</view>
+							<view>
+								<text class="margin-r-10" >12.65~16.64</text>
+								<text>元/公斤</text>
+							</view>
+						</view>
 						<view class="content-tip"></view>
 						<image class="content-tip-img" src="/image/icon/duigou.png"></image>
 					</view>
 					<view class="HJ-product-dec">
-            <text class="HJ-product-minu">单价： </text>
-						<input placeholder="单价" class="flex-half"></input>
+						<text class="HJ-product-minu">单价： </text>
+						<input placeholder="单价" class="flex-min"></input>
 						<text class="flex-min">元/公斤</text>
 					</view>
-          <view class="HJ-product-dec">
-            <text class="HJ-product-minu">总量：</text>
-						<input placeholder="输入总量" class="HJ-product-text-edit flex-half"></input>
+					<view class="HJ-product-dec">
+						<text class="HJ-product-minu">总量：</text>
+						<input placeholder="输入总量" class="HJ-product-text-edit flex-min"></input>
 						<text class="flex-min">公斤</text>
+					</view>
+
+					<view class="HJ-product-dec padding-none fr">
+						<view class="flex-1 margin-r-20">
+							<button class="weui-btn mini-btn" type="default" size="mini">按钮</button>
+						</view>
 					</view>
 				</view>
 
-        <view class="HJ-product-list-edit">
+				<view class="HJ-product-list-edit">
 					<view class="HJ-product-text">
-						纸壳（通货）
+						<view class="HJ-product-list">
+							<view>
+								白色透明丙烯
+							</view>
+							<view>
+								<text class="margin-r-10" >12.65~16.64</text>
+								<text>元/公斤</text>
+							</view>
+						</view>
 						<view class="content-tip"></view>
 						<image class="content-tip-img" src="/image/icon/duigou.png"></image>
 					</view>
 					<view class="HJ-product-dec">
-            <text class="HJ-product-minu">单价： </text>
-						<input placeholder="单价" class="flex-half"></input>
+						<text class="HJ-product-minu">单价： </text>
+						<input placeholder="单价" class="flex-min"></input>
 						<text class="flex-min">元/公斤</text>
 					</view>
-          <view class="HJ-product-dec">
-            <text class="HJ-product-minu">总量：</text>
-						<input placeholder="输入总量" class="HJ-product-text-edit flex-half"></input>
+					<view class="HJ-product-dec">
+						<text class="HJ-product-minu">总量：</text>
+						<input placeholder="输入总量" class="HJ-product-text-edit flex-min"></input>
 						<text class="flex-min">公斤</text>
+					</view>
+					<view class="HJ-product-dec padding-none fr">
+						<view class="flex-1 margin-r-20">
+							<button class="weui-btn mini-btn" type="default" size="mini">按钮</button>
+						</view>
 					</view>
 				</view>
 
 
-      </view>
-			
+			</view>
+
 		</view>
 	</view>
 
