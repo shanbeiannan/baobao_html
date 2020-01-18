@@ -27,7 +27,7 @@ button[size='mini']{
 }
 .HJ-product-minu{
   margin-left:20rpx;
-  flex:0.15;
+  flex:0.2;
 }
 .HJ-product-text-edit{
   width:80rpx;
