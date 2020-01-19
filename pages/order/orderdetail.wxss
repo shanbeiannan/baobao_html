@@ -49,3 +49,24 @@
   padding-bottom:0;
 }
 
+.my-button{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-items: center;
+  align-items: center;
+  line-height: 40px;
+}
+button:not([size='mini']){
+  width:auto !important;
+}
+button[type='default']{
+  color:#999;
+}
+.weui-btn+.weui-btn{
+  margin-top: 0 !important;
+}
+
+.button-hover{
+  background-color: transparent;
+}

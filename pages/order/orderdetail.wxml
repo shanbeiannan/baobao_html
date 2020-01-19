@@ -124,3 +124,9 @@
 <view class="page__bd page__bd_spacing">
   <button class="weui-btn button" type="primary" style="width:auto;">再次编辑</button>
 </view>
+
+<view class="page__bd page__bd_spacing my-button">
+ 
+  <button class="weui-btn mini-btn" type="primary" size="min">线下支付</button>
+  <button class="weui-btn mini-btn" type="default" size="min">再次编辑</button>
+</view>

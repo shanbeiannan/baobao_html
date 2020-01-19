@@ -15,6 +15,7 @@
 				<view class="margin-b-20 fz-14">您已选择：</view>
 				<view>
 					<view class="HJ-cells site padding-t-none fz-14">
+
 						<view class="HJ-cell-list">
 							<view class="margin-r-20 fz-14">塑料类:</view>
 							<view class="fz-14">
@@ -40,6 +41,7 @@
 
 
 			<view class="HJ-product">
+
 				<view class="HJ-product-list-edit active">
 					<view class="HJ-product-text active">
 						<view class="HJ-product-list">
