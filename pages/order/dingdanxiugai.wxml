@@ -1,118 +1,135 @@
 <view class="container margin-none">
-	<view class="HJ-container">
-		<view class="HJ-list-left" style="height:{{systemHeight-20}}px;">
-			<view class="{{isShowChild == 0 ?'active':''}}" bindtap="showClassChild" data-index="0">纸类</view>
-			<view class="{{isShowChild == 1 ?'active':''}}" bindtap="showClassChild" data-index="1">塑料</view>
-			<view class="{{isShowChild == 2 ?'active':''}}" bindtap="showClassChild" data-index="2">有色金属</view>
-			<view class="{{isShowChild == 3 ?'active':''}}" bindtap="showClassChild" data-index="3">废钢</view>
-			<view class="{{isShowChild == 4 ?'active':''}}" bindtap="showClassChild" data-index="4">玻璃</view>
-			<view class="{{isShowChild == 5 ?'active':''}}" bindtap="showClassChild" data-index="5">家电</view>
-		</view>
-		<view class="HJ-list-right flex-1" style="height:{{systemHeight-40}}px;max-height:{{systemHeight-40}}px;overflow-y:scroll">
-
-			<!-- <view class="margin-b-20 fz-14">订单修改：</view> -->
-			<view class="HJ-selected border-b-gray">
-				<view class="margin-b-20 fz-14">您已选择：</view>
-				<view>
-					<view class="HJ-cells site padding-t-none fz-14">
-
-						<view class="HJ-cell-list">
-							<view class="margin-r-20 fz-14">塑料类:</view>
-							<view class="fz-14">
-								<text class="margin-r-40 fz-14">矿泉水</text>
-								<text>2kg</text>
-							</view>
-						</view>
-						<image class="delimg-fr" src="/image/icon/shanchu.png"></image>
-					</view>
-
-					<view class="HJ-cells site padding-t-none">
-						<view class="HJ-cell-list">
-							<view class="margin-r-20 fz-14">塑料类:</view>
-							<view class="fz-14">
-								<text class="margin-r-40 fz-14">白色透明丙烯筐</text>
-								<text>2kg</text>
-							</view>
-						</view>
-						<image class="delimg-fr" src="/image/icon/shanchu.png"></image>
-					</view>
-				</view>
-			</view>
+  <view class="HJ-container">
+    <view class="HJ-list-left" style="height:{{systemHeight-20}}px;">
+      <view class="{{isShowChild == 0 ?'active':''}}" bindtap="showClassChild" data-index="0">纸类</view>
+      <view class="{{isShowChild == 1 ?'active':''}}" bindtap="showClassChild" data-index="1">塑料</view>
+      <view class="{{isShowChild == 2 ?'active':''}}" bindtap="showClassChild" data-index="2">有色金属</view>
+      <view class="{{isShowChild == 3 ?'active':''}}" bindtap="showClassChild" data-index="3">废钢</view>
+      <view class="{{isShowChild == 4 ?'active':''}}" bindtap="showClassChild" data-index="4">玻璃</view>
+      <view class="{{isShowChild == 5 ?'active':''}}" bindtap="showClassChild" data-index="5">家电</view>
+    </view>
+    <view class="HJ-list-right flex-1" style="height:{{systemHeight-40}}px;max-height:{{systemHeight-40}}px;overflow-y:scroll">
 
 
-			<view class="HJ-product">
+      <view class="HJ-cells border-b-gray margin-b-40">
+        <view class="HJ-cell-title fz-14">
+          分拣站
+        </view>
+        <view class="HJ-cell-text flex-1">
+          <input placeholder="选择取货地址" placeholder-class="HJ-inputView fz-14">选择取货地址</input>
+        </view>
+        <view class="HJ-cell-right">
+          <image src="/image/icon/maodian-lv.png"></image>
+        </view>
+      </view>
 
-				<view class="HJ-product-list-edit active">
-					<view class="HJ-product-text active">
-						<view class="HJ-product-list">
-							<view>
-								白色透明丙烯
-							</view>
-							<view>
-								<text class="margin-r-10" >12.65~16.64</text>
-								<text>元/公斤</text>
-							</view>
-						</view>
-						<view class="content-tip"></view>
-						<image class="content-tip-img" src="/image/icon/duigou.png"></image>
-					</view>
-					<view class="HJ-product-dec">
-						<text class="HJ-product-minu">单价： </text>
-						<input placeholder="单价" class="flex-min"></input>
-						<text class="flex-min">元/公斤</text>
-					</view>
-					<view class="HJ-product-dec">
-						<text class="HJ-product-minu">总量：</text>
-						<input placeholder="输入总量" class="HJ-product-text-edit flex-min"></input>
-						<text class="flex-min">公斤</text>
-					</view>
+      <!-- <view class="margin-b-20 fz-14">订单修改：</view> -->
+      <view class="HJ-selected border-b-gray">
+        <view class="margin-b-20 fz-14">您已选择：</view>
+        <view>
+          <view class="HJ-cells site padding-t-none fz-14">
 
-					<view class="HJ-product-dec padding-none fr">
-						<view class="flex-1 margin-r-20">
-							<button class="weui-btn mini-btn" type="default" size="mini">按钮</button>
-						</view>
-					</view>
-				</view>
+            <view class="HJ-cell-list">
+              <view class="margin-r-20 fz-14">塑料类:</view>
+              <view class="fz-14">
+                <text class="margin-r-40 fz-14">矿泉水</text>
+                <text>2kg</text>
+              </view>
+            </view>
+            <image class="delimg-fr" src="/image/icon/shanchu.png"></image>
+          </view>
 
-				<view class="HJ-product-list-edit">
-					<view class="HJ-product-text">
-						<view class="HJ-product-list">
-							<view>
-								白色透明丙烯
-							</view>
-							<view>
-								<text class="margin-r-10" >12.65~16.64</text>
-								<text>元/公斤</text>
-							</view>
-						</view>
-						<view class="content-tip"></view>
-						<image class="content-tip-img" src="/image/icon/duigou.png"></image>
-					</view>
-					<view class="HJ-product-dec">
-						<text class="HJ-product-minu">单价： </text>
-						<input placeholder="单价" class="flex-min"></input>
-						<text class="flex-min">元/公斤</text>
-					</view>
-					<view class="HJ-product-dec">
-						<text class="HJ-product-minu">总量：</text>
-						<input placeholder="输入总量" class="HJ-product-text-edit flex-min"></input>
-						<text class="flex-min">公斤</text>
-					</view>
-					<view class="HJ-product-dec padding-none fr">
-						<view class="flex-1 margin-r-20">
-							<button class="weui-btn mini-btn" type="default" size="mini">按钮</button>
-						</view>
-					</view>
-				</view>
+          <view class="HJ-cells site padding-t-none">
+            <view class="HJ-cell-list">
+              <view class="margin-r-20 fz-14">塑料类:</view>
+              <view class="fz-14">
+                <text class="margin-r-40 fz-14">白色透明丙烯筐</text>
+                <text>2kg</text>
+              </view>
+            </view>
+            <image class="delimg-fr" src="/image/icon/shanchu.png"></image>
+          </view>
+        </view>
+      </view>
 
 
-			</view>
+      <view class="HJ-product">
 
-		</view>
-	</view>
+        <view class="HJ-product-list-edit active">
+          <view class="HJ-product-text active">
+            <view class="HJ-product-list">
+              <view>
+                白色透明丙烯
+              </view>
+              <view>
+                <text class="margin-r-10">12.65~16.64</text>
+                <text>元/公斤</text>
+              </view>
+            </view>
+            <view class="content-tip"></view>
+            <image class="content-tip-img" src="/image/icon/duigou.png"></image>
+          </view>
+          <view class="HJ-product-dec">
+            <text class="HJ-product-minu">单价： </text>
+            <input placeholder="单价" class="flex-min"></input>
+            <text class="flex-min">元/公斤</text>
+          </view>
+          <view class="HJ-product-dec">
+            <text class="HJ-product-minu">总量：</text>
+            <input placeholder="输入总量" class="HJ-product-text-edit flex-min"></input>
+            <text class="flex-min">公斤</text>
+          </view>
 
-	<view class="HJ-btn">
-		确定提交
-	</view>
+          <view class="HJ-product-dec padding-none fr">
+            <view class="flex-1 margin-r-20 fc">
+              <button class="weui-btn mini-btn" type="default" size="mini">按钮</button>
+            </view>
+
+            <view class="flex-1 margin-r-20 fc">
+              <button class="weui-btn mini-btn" type="default" size="mini">按钮</button>
+            </view>
+          </view>
+        </view>
+
+        <view class="HJ-product-list-edit">
+          <view class="HJ-product-text">
+            <view class="HJ-product-list">
+              <view>
+                白色透明丙烯
+              </view>
+              <view>
+                <text class="margin-r-10">12.65~16.64</text>
+                <text>元/公斤</text>
+              </view>
+            </view>
+            <view class="content-tip"></view>
+            <image class="content-tip-img" src="/image/icon/duigou.png"></image>
+          </view>
+          <view class="HJ-product-dec">
+            <text class="HJ-product-minu">单价： </text>
+            <input placeholder="单价" class="flex-min"></input>
+            <text class="flex-min">元/公斤</text>
+          </view>
+          <view class="HJ-product-dec">
+            <text class="HJ-product-minu">总量：</text>
+            <input placeholder="输入总量" class="HJ-product-text-edit flex-min"></input>
+            <text class="flex-min">公斤</text>
+          </view>
+          <view class="HJ-product-dec padding-none fr">
+            <view class="flex-1 margin-r-20">
+              <button class="weui-btn mini-btn" type="default" size="mini">按钮</button>
+            </view>
+          </view>
+        </view>
+
+
+      </view>
+
+    </view>
+  </view>
+
+  <view class="HJ-btn">
+    确定提交
+  </view>
 
 </view>
