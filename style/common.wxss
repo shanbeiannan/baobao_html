@@ -722,7 +722,7 @@
   justify-content: flex-end;
 }
 
-.btn-gray-min,.btn-red-min{
+.btn-gray-min,.btn-red-min,.btn-green-min{
   border:1px solid #666;
   color:#666;
   border-radius:50rpx;
@@ -733,9 +733,14 @@
 }
 
 .btn-red-min{
-  margin:0 25rpx;
+  margin-left:25rpx;
   border:#ff4c5a 1px solid;
   color:#ff4c5a;
+}
+.btn-green-min{
+  margin-left:25rpx;
+  border:#21c179 1px solid;
+  color:#21c179;
 }
 /***物品选择页面***/
 .HJ-container {
@@ -861,6 +866,7 @@
 }
 
 /**库存页*/
+
 .HJ-product-text{
   margin-right:0;
   padding: 10rpx 20rpx;
