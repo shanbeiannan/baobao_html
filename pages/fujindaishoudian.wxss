@@ -1,4 +1,4 @@
-/* pages/fujindaishoudian.wxss */
+
 /*overrize*/
 .list_b{
   width:100%;
@@ -9,9 +9,12 @@
 }
 
 .list_b_container{
-  padding:0 25rpx;
+  padding:0 !important;
 }
-
+.list_b_item {
+  padding-left:25rpx !important;
+  padding-right: 25rpx !important;
+}
 .list_b_item_children .list_b_item_children_icon1{
   width:40rpx;
   height:40rpx;
@@ -33,6 +36,7 @@ form{
   display:flex;
   align-items:center;
   padding:15rpx 25rpx;
+  margin: 0 auto;
 }
 .HJ-search input{
   flex:1;
@@ -46,7 +50,10 @@ form{
   vertical-align: middle;
 }
 
-
+.HJ-line{
+  width:100%;
+  border-top:25rpx solid #f8f8f8;
+}
 
 .list-none{
   margin:0 auto;
