@@ -20,9 +20,9 @@
     </view>
   </view>
 </view>
- <view class="HJ-line"></view>
+<view class="HJ-line"></view>
 <view class="container">
-<view class="HJ-cells border-b-gray">
+  <view class="HJ-cells border-b-gray">
     <view class="HJ-cell-right margin-r-20">
       <image src="/image/icon/lishijilu.png"></image>
     </view>
@@ -36,7 +36,7 @@
     </view>
   </view>
 
-<view class="HJ-cells border-b-gray">
+  <view class="HJ-cells border-b-gray">
     <view class="HJ-cell-right margin-r-20">
       <image src="/image/icon/zhanghu.png"></image>
     </view>
@@ -92,5 +92,5 @@
     </view>
   </view>
 
-  
+
 </view>

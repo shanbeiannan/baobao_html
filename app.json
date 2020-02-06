@@ -21,7 +21,9 @@
     "pages/order/kucun",
     "pages/order/kucun2",
     "pages/order/dingdanxiugai",
-    "pages/my/my_new"
+    "pages/my/my_new",
+    "pages/my/bangzhu",
+    "pages/my/jiaoyijilu"
   ],
   "tabBar": {
     "list": [

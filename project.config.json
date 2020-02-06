@@ -172,6 +172,20 @@
 					"id": -1,
 					"name": "我的 新页",
 					"pathName": "pages/my/my_new",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "帮助",
+					"pathName": "pages/my/bangzhu",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "交易记录",
+					"pathName": "pages/my/jiaoyijilu",
 					"scene": null
 				}
 			]
