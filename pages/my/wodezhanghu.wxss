@@ -1,0 +1,27 @@
+/* pages/my/wodezhanghu.wxss */
+
+.my-content {
+  width: 100%;
+  margin-top: 50px;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.my-money{
+  font-size:80rpx;
+  font-weight: 700;
+}
+
+.my-button-content{
+  margin-top:20px;
+}
+
+.my-button{
+  color:#fff;
+  background-color:#fec244;
+  border-radius: 45rpx;
+  padding:15rpx 100rpx ;
+}

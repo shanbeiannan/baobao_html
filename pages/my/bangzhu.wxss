@@ -1,1 +1,20 @@
 /* pages/my/bangzhu.wxss */
+
+.HJ-artical-title-min, .HJ-artical-title,.HJ-artical-content {
+  color: #333;
+  font-size: 38rpx;
+  padding: 20rpx 36rpx;
+}
+
+.HJ-artical-title {
+  border-bottom: 1px solid #eee;
+  font-weight: 700;
+}
+.HJ-artical-content{
+ color: #999;
+}
+
+.HJ-artical-image{
+  width:100%;
+  height:140px;
+}

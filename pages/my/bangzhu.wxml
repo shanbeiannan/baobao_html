@@ -1,0 +1,26 @@
+
+<view class="container">
+ <view class="HJ-artical-title">
+    标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题
+ </view>
+<view class="HJ-artical-title-min">
+小标题，副标题小标题，副标题
+</view>
+
+<view class="HJ-artical-content">
+内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容
+</view>
+<image class="HJ-artical-image" src="/image/default/zanwushuju.png"></image>
+<view class="HJ-artical-content">
+内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容
+</view>
+
+
+<view class="HJ-artical-title-min">
+小标题，副标题小标题，副标题
+</view>
+
+<view class="HJ-artical-content">
+内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容
+</view>
+</view>

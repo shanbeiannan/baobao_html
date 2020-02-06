@@ -186,6 +186,13 @@
 					"id": -1,
 					"name": "交易记录",
 					"pathName": "pages/my/jiaoyijilu",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "我的账户",
+					"pathName": "pages/my/wodezhanghu",
 					"scene": null
 				}
 			]

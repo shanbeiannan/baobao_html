@@ -9,5 +9,11 @@
 
 <navigator url="/pages/my/my" hover-class="none">我的</navigator>
 
+<navigator url="/pages/my/my_new" hover-class="none">我的(新)</navigator>
+
+<navigator url="/pages/my/jiaoyijilu" hover-class="none">交易记录</navigator>
+
+<navigator url="/pages/my/wodezhanghu" hover-class="none">我的账户</navigator>
+
 
 <navigator url="/pages/login" hover-class="none">登录页面</navigator>

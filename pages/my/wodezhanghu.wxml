@@ -1,0 +1,12 @@
+<!--pages/my/wodezhanghu.wxml-->
+<view class="container">
+  <view class="my-content">
+    <view class="my-title">剩余金额</view>
+    <view class="my-money">2345</view>
+    <view class="my-button-content">
+    <view class="my-button">
+      我要提现
+    </view>
+    </view>
+  </view>
+</view>

@@ -23,7 +23,8 @@
     "pages/order/dingdanxiugai",
     "pages/my/my_new",
     "pages/my/bangzhu",
-    "pages/my/jiaoyijilu"
+    "pages/my/jiaoyijilu",
+    "pages/my/wodezhanghu"
   ],
   "tabBar": {
     "list": [
