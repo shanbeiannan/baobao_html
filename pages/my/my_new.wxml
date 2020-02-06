@@ -12,11 +12,7 @@
           <!-- <button hover-class="none">点击登录</button> -->
         </view>
       </view>
-      <view class="HJ-my-hd-right">
-        <view>
-          <image src="/image/icon/shezhi.png"></image>
-        </view>
-      </view>
+      
     </view>
   </view>
 </view>

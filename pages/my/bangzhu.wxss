@@ -5,6 +5,7 @@
   font-size: 38rpx;
   padding: 20rpx 36rpx;
   text-align: left;
+  width:90%;
 }
 
 .HJ-artical-title {

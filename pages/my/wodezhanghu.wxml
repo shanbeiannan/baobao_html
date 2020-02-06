@@ -1,12 +1,18 @@
 <!--pages/my/wodezhanghu.wxml-->
 <view class="container">
+  <view class="HJ-my-hd-right">
+    <view>
+      <image src="/image/icon/lishijilu.png"></image>
+    </view>
+    <view class="txt">交易记录</view>
+  </view>
   <view class="my-content">
     <view class="my-title">剩余金额</view>
     <view class="my-money">2345</view>
     <view class="my-button-content">
-    <view class="my-button">
-      我要提现
-    </view>
+      <view class="my-button">
+        我要提现
+      </view>
     </view>
   </view>
 </view>

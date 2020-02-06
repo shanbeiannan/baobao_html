@@ -25,3 +25,22 @@
   border-radius: 45rpx;
   padding:15rpx 100rpx ;
 }
+
+.HJ-my-hd-right{
+  width:90%;
+   display:flex;
+  flex-direction: row;
+  align-content:center;
+  justify-items: flex-end;
+  justify-content: flex-end;
+  margin-top:10px;
+}
+.HJ-my-hd-right image {
+  vertical-align: meiddle;
+  width: 40rpx;
+  height: 40rpx;
+}
+.txt{
+  line-height: 40rpx;
+  margin-left:20rpx;
+}
