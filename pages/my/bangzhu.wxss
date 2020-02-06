@@ -4,6 +4,7 @@
   color: #333;
   font-size: 38rpx;
   padding: 20rpx 36rpx;
+  text-align: left;
 }
 
 .HJ-artical-title {
