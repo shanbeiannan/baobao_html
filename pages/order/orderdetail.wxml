@@ -1,6 +1,10 @@
 <!--pages/order/orderdetail.wxml-->
 <view class="container">
   <view class="car-order-status">
+  <view class="car-order-status-list">
+      <text>订单编号:</text>
+      <text>HS233334332343</text>
+    </view>
     <view class="car-order-status-list">
       <text>订单状态:</text>
       <text>等待确认</text>

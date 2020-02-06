@@ -5,10 +5,10 @@
   color:#fff;
 }
 .car-order-status-list{
-  padding:25rpx 36rpx;
+  padding:10rpx 36rpx;
 }
 .car-order-status-list:last-child{
-  padding:0 36rpx 25rpx 36rpx;
+  padding:0 36rpx 10rpx 36rpx;
 }
 .car-order-status-list text{
   margin-right:15rpx;
