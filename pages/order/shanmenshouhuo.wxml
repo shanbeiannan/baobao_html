@@ -1,72 +1,77 @@
 <!--pages/order/shanmenshouhuo.wxml-->
 
-<view class="container {{istrue?'dialog-flow':''}}">
-	<view class="HJ-cells border-b-gray">
-		<view class="HJ-cell-title">
-			取货地址
-		</view>
-		<view class="HJ-cell-text flex-1">
-			<view placeholder="选择取货地址" placeholder-class="HJ-inputView">选择取货地址</view>
-		</view>
-		<view class="HJ-cell-right">
-			<image src="/image/icon/maodian-lv.png"></image>
-		</view>
-	</view>
+<view class="container">
+  <view class="HJ-cells border-b-gray">
+    <view class="HJ-cell-title">
+      取货地址
+    </view>
+    <view class="HJ-cell-text flex-1">
+      <view placeholder="选择取货地址" placeholder-class="HJ-inputView">选择取货地址</view>
+    </view>
+    <view class="HJ-cell-right">
+      <image src="/image/icon/maodian-lv.png"></image>
+    </view>
+  </view>
+ 
+  <view class="HJ-cells border-b-gray">
+    <view class="HJ-cell-title">
+      添加回收物品
+    </view>
+  </view>
+  <view class="HJ-cells site">
+    <view class="HJ-cell-area">
+    </view>
+    <view class="HJ-cell-add">
+      <view class="HJ-cell-add-icon">
+        <image src="/image/icon/add-lv.png"></image>
+      </view>
+      <text class="HJ-cell-add-text">点击添加</text>
+    </view>
+  </view>
+
+  <view class="HJ-cells site">
+    <view class="HJ-cell-list">
+      <view class='margin-r-20'>塑料类塑料类塑料类:</view>
+      <view>
+        <text class="margin-r-40">矿泉水矿泉</text>
+        <text>2kg</text>
+      </view>
+    </view>
+    <image class="delimg-fr" src="/image/icon/shanchu.png"></image>
+  </view>
+
+  <view class="HJ-cells site">
+    <view class="HJ-cell-list">
+      <view class='margin-r-20'>塑料类:</view>
+      <view>
+        <text class="margin-r-40">矿泉水矿泉水矿泉水</text>
+        <text>2kg</text>
+      </view>
+    </view>
+    <image class="delimg-fr" src="/image/icon/shanchu.png"></image>
+  </view>
+
+  <view class="HJ-cells border-b-gray">
+    <view class="HJ-cell-title">
+      预约上门日期
+    </view>
+    <view class="HJ-cell-text flex-1">
+
+      <view bindtap="openDialog" class="HJ-inputView">点击选择</view>
+    </view>
+    <view class="HJ-cell-right">
+      <image src="/image/icon/xiangyou.png"></image>
+    </view>
+  </view>
+
+  <view class="HJ-cells border-b-gray">
+    <view class="HJ-cell-title">
+      上传照片
+    </view>
+  </view>
 
 
-	<view class="HJ-cells border-b-gray">
-		<view class="HJ-cell-title">
-			添加回收物品
-		</view>
-	</view>
-	<view class="HJ-cells site">
-		<view class="HJ-cell-area">
-		</view>
-		<view class="HJ-cell-add">
-			<view class="HJ-cell-add-icon">
-				<image src="/image/icon/add-lv.png"></image>
-			</view>
-			<text class="HJ-cell-add-text">点击添加</text>
-		</view>
-	</view>
-
-	<view class="HJ-cells site">
-		<view class="HJ-cell-list">
-			<view class='margin-r-20'>塑料类塑料类塑料类:</view>
-			<view ><text class="margin-r-40">矿泉水矿泉</text> <text>2kg</text></view>
-		</view>
-		<image class="delimg-fr" src="/image/icon/shanchu.png"></image>
-	</view>
-
-	<view class="HJ-cells site">
-		<view class="HJ-cell-list">
-			<view class='margin-r-20'>塑料类:</view>
-			<view><text class="margin-r-40">矿泉水矿泉水矿泉水</text> <text>2kg</text></view>
-		</view>
-		<image class="delimg-fr" src="/image/icon/shanchu.png"></image>
-	</view>
-
-	<view class="HJ-cells border-b-gray">
-		<view class="HJ-cell-title">
-			预约上门日期
-		</view>
-		<view class="HJ-cell-text flex-1">
-
-			<view bindtap="openDialog" class="HJ-inputView">点击选择</view>
-		</view>
-		<view class="HJ-cell-right">
-			<image src="/image/icon/xiangyou.png"></image>
-		</view>
-	</view>
-
-	<view class="HJ-cells border-b-gray">
-		<view class="HJ-cell-title">
-			上传照片
-		</view>
-	</view>
-
-
-	<!-- <view class="HJ-cells  border-b-gray">
+  <!-- <view class="HJ-cells  border-b-gray">
 		<view class="gallery">
 			<view class="HJ-cell-area-min item">
 				<view class="HJ-cell-add margin-t-60">
@@ -80,48 +85,48 @@
 			</view>
 		</view>
 	</view> -->
-	<view class="HJ-cells  border-b-gray">
-		<view class="gallery">
-			<view class="item">
-				<view>
-					<image class="delimg" src="/image/icon/close.png"></image>
-				</view>
-				<image class="img" src="/image/icon/xiyiji.png"></image>
-			</view>
+  <view class="HJ-cells  border-b-gray">
+    <view class="gallery">
+      <view class="item">
+        <view>
+          <image class="delimg" src="/image/icon/close.png"></image>
+        </view>
+        <image class="img" src="/image/icon/xiyiji.png"></image>
+      </view>
 
-			<view class="item">
-				<view>
-					<image class="delimg" src="/image/icon/close.png"></image>
-				</view>
-				<image class="img" src="/image/icon/xiyiji.png"></image>
-			</view>
+      <view class="item">
+        <view>
+          <image class="delimg" src="/image/icon/close.png"></image>
+        </view>
+        <image class="img" src="/image/icon/xiyiji.png"></image>
+      </view>
 
-			<view class="item">
-				<view>
-					<image class="delimg" src="/image/icon/close.png"></image>
-				</view>
-				<image class="img" src="/image/icon/xiyiji.png"></image>
-			</view>
-			<view class="HJ-cell-area-min item">
-				<view class="HJ-cell-add margin-t-60">
-					<view class="HJ-cell-add-icon">
-						<image src="/image/icon/add-hui.png"></image>
-					</view>
-				</view>
-			</view>
-		</view>
-	</view>
+      <view class="item">
+        <view>
+          <image class="delimg" src="/image/icon/close.png"></image>
+        </view>
+        <image class="img" src="/image/icon/xiyiji.png"></image>
+      </view>
+      <view class="HJ-cell-area-min item">
+        <view class="HJ-cell-add margin-t-60">
+          <view class="HJ-cell-add-icon">
+            <image src="/image/icon/add-hui.png"></image>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
 
 
-	<view class="HJ-cells" wx:if="{{!istrue}}">
-		<view class="HJ-cell-title">
-			备注
-		</view>
-	</view>
-	<view class="HJ-cells" wx:if="{{!istrue}}">
-		<view class="HJ-cell-title">
-			<textarea placeholder="可描述物品状态，干湿程度等" placeholder-class="placholder" />
-			</view>
+  <view class="HJ-cells" wx:if="{{!istrue}}">
+    <view class="HJ-cell-title">
+      备注
+    </view>
+  </view>
+  <view class="HJ-cells" wx:if="{{!istrue}}">
+    <view class="HJ-cell-title">
+      <textarea placeholder="可描述物品状态，干湿程度等" placeholder-class="placholder" />
+    </view>
   </view>
 
 </view>
@@ -139,7 +144,7 @@
       </view>
       <view class="weui-half-screen-dialog__hd__main">
         <text class="weui-half-screen-dialog__title">标题</text>
-      </view>     
+      </view>
     </view>
     <view class="weui-half-screen-dialog__bd">
       <view class="weui-half-screen-dialog__desc">
@@ -150,12 +155,12 @@
               <view wx:for="{{leftArr}}" wx:key="*this" class="picker-list-view">{{item}}</view>
             </picker-view-column>
             <picker-view-column>
-              <view  wx:for="{{rightArr}}"  wx:key="*this" class="picker-list-view" >{{item}}</view>
-            </picker-view-column>           
+              <view wx:for="{{rightArr}}" wx:key="*this" class="picker-list-view">{{item}}</view>
+            </picker-view-column>
           </picker-view>
-        </view>       
+        </view>
       </view>
-     
+
     </view>
     <view class="weui-half-screen-dialog__ft">
       <button type="default" class="weui-btn">取消</button>

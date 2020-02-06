@@ -20,7 +20,8 @@
     "pages/order/dingdanliebiao",
     "pages/order/kucun",
     "pages/order/kucun2",
-    "pages/order/dingdanxiugai"
+    "pages/order/dingdanxiugai",
+    "pages/my/my_new"
   ],
   "tabBar": {
     "list": [

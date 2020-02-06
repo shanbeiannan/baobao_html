@@ -1,0 +1,65 @@
+/* pages/my/my_new.wxss */
+.HJ-my-bg {
+  padding: 25rpx 0;
+  width: 90%; 
+}
+
+.HJ-my-hd {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.HJ-my-hd-left {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.HJ-my-hd-photo-unlogin{
+  display: flex;
+  align-items: center;
+}
+
+.HJ-my-hd-photo {
+  margin-right: 20rpx;
+}
+
+.HJ-my-hd-photo image {
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 50%;
+}
+
+button{
+  background:transparent;
+  color:#333333;
+  width:auto;
+  font-weight: 1;
+  /* padding-left:0;
+  padding-right:0; */
+  padding:0;
+  margin-left:0;
+  font-size:32rpx;
+  text-align: left;
+  line-height:2;
+}
+button:not([size='mini']){
+  min-height:0;
+}
+.HJ-my-hd-info {
+  display: flex;
+  flex-direction: column;  
+  color:#333333;
+}
+
+.HJ-my-hd-name {
+  font-size:36rpx;
+  font-weight: bold;
+}
+
+.HJ-my-hd-right image {
+  width: 40rpx;
+  height: 40rpx;
+}

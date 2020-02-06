@@ -165,6 +165,13 @@
 					"id": -1,
 					"name": "订单物品信息修改",
 					"pathName": "pages/order/dingdanxiugai",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "我的 新页",
+					"pathName": "pages/my/my_new",
 					"scene": null
 				}
 			]

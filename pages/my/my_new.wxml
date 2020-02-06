@@ -1,0 +1,96 @@
+<!--pages/my/my_new.wxml-->
+<view class="container">
+  <view class="HJ-my-bg">
+    <view class="HJ-my-hd">
+      <view class="HJ-my-hd-left">
+        <view class="HJ-my-hd-photo">
+          <image src="/image/default/man.png"></image>
+        </view>
+        <view class="HJ-my-hd-info">
+          <text class="HJ-my-hd-name">周杰伦</text>
+          <text>天津</text>
+          <!-- <button hover-class="none">点击登录</button> -->
+        </view>
+      </view>
+      <view class="HJ-my-hd-right">
+        <view>
+          <image src="/image/icon/shezhi.png"></image>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
+ <view class="HJ-line"></view>
+<view class="container">
+<view class="HJ-cells border-b-gray">
+    <view class="HJ-cell-right margin-r-20">
+      <image src="/image/icon/lishijilu.png"></image>
+    </view>
+    <view class="HJ-cell-title">
+      历史交易
+    </view>
+    <view class="HJ-cell-text flex-1">
+    </view>
+    <view class="HJ-cell-right">
+      <image src="/image/icon/xiangyou.png"></image>
+    </view>
+  </view>
+
+<view class="HJ-cells border-b-gray">
+    <view class="HJ-cell-right margin-r-20">
+      <image src="/image/icon/zhanghu.png"></image>
+    </view>
+    <view class="HJ-cell-title">
+      我的账户
+    </view>
+    <view class="HJ-cell-text flex-1">
+    </view>
+    <view class="HJ-cell-right">
+      <image src="/image/icon/xiangyou.png"></image>
+    </view>
+  </view>
+
+  <view class="HJ-cells border-b-gray">
+    <view class="HJ-cell-right margin-r-20">
+      <image src="/image/icon/jifen.png"></image>
+    </view>
+    <view class="HJ-cell-title">
+      积分商城
+    </view>
+    <view class="HJ-cell-text flex-1">
+    </view>
+    <view class="HJ-cell-right">
+      <image src="/image/icon/xiangyou.png"></image>
+    </view>
+  </view>
+
+  <view class="HJ-cells border-b-gray">
+    <view class="HJ-cell-right margin-r-20">
+      <image src="/image/icon/dianhua-lv-xi.png"></image>
+    </view>
+    <view class="HJ-cell-title">
+      联系客服
+    </view>
+    <view class="HJ-cell-text flex-1">
+    </view>
+    <view class="HJ-cell-right">
+      <image src="/image/icon/xiangyou.png"></image>
+    </view>
+  </view>
+
+  <view class="HJ-cells border-b-gray">
+    <view class="HJ-cell-right margin-r-20">
+      <image src="/image/icon/bangzhu-lv.png"></image>
+    </view>
+    <view class="HJ-cell-title">
+      帮助
+    </view>
+    <view class="HJ-cell-text flex-1">
+    </view>
+    <view class="HJ-cell-right">
+      <image src="/image/icon/xiangyou.png"></image>
+    </view>
+  </view>
+
+  
+</view>
