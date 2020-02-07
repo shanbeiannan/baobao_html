@@ -1,1 +1,7 @@
 /* pages/my/jiaoyijilu.wxss */
+.container {
+  margin-top:0 !important;
+}
+.HJ-item-dec-down{
+  padding:5rpx 0 !important;
+}

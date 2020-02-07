@@ -10,7 +10,7 @@
 
         <view class="HJ-item-dec-down border-b-gray">
           <view class="HJ-item-dec-list">
-            <view class="flex-1 fz-16 fl">2020年02月06日</view>
+            <view class="flex-1 fz-16 fl">2020/02/06 7:30</view>
           </view>
         </view>
         <view class="HJ-item-dec-down">
@@ -39,7 +39,7 @@
 
         <view class="HJ-item-dec-down border-b-gray">
           <view class="HJ-item-dec-list">
-            <view class="flex-1 fz-16 fl">2020年02月06日</view>
+            <view class="flex-1 fz-16 fl">2020/02/06 7:30</view>
           </view>
         </view>
         <view class="HJ-item-dec-down">
