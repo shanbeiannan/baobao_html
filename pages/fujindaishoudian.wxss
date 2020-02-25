@@ -25,6 +25,9 @@ button{
   border:0;
   border-radius: 0;
 }
+.HJ-item-footer{
+  padding-bottom:0;
+}
 /**本页样式*/
 form{
   width:100%;

@@ -33,7 +33,9 @@
 					</view>
 					<text class="text-3">约367.21km</text>
 				</view>
-
+          <view class="HJ-item-footer">
+							<view class="btn-green-min">立即下单</view>
+						</view>
 			</view>
 
 			<view class="HJ-line"></view>
@@ -55,6 +57,9 @@
 					</view>
 					<text class="text-3">约367.21km</text>
 				</view>
+          <view class="HJ-item-footer">
+							<view class="btn-green-min">立即下单</view>
+						</view>
 
 			</view>
 
@@ -77,6 +82,9 @@
 					</view>
 					<text class="text-3">约367.21km</text>
 				</view>
+          <view class="HJ-item-footer">
+							<view class="btn-green-min">立即下单</view>
+						</view>
 
 			</view>
 

@@ -113,7 +113,7 @@
 					"scene": null
 				},
 				{
-					"id": -1,
+					"id": 8,
 					"name": "附近回收点",
 					"pathName": "pages/fujindaishoudian",
 					"query": "",
@@ -193,6 +193,7 @@
 					"id": -1,
 					"name": "我的账户",
 					"pathName": "pages/my/wodezhanghu",
+					"query": "",
 					"scene": null
 				}
 			]
