@@ -14,7 +14,13 @@
 
 				<view class="list_b_container flex-1">
 					<view class="HJ-list-item ">
+           <view class="HJ-item-hd ">
+            <view class="HJ-item-hd-left">
+              	<text class="HJ-cell-txt-left fc-blue">来源：自主送货</text>
+            </view>
+            </view>
 						<view class="HJ-item-hd border-b-gray">
+            
 							<view class="HJ-item-hd-left">
 								<view class="HJ-cell-left">
 									<image src="/image/icon/shangmen-lv.png"></image>
@@ -53,6 +59,11 @@
 					<view class="HJ-line"></view>
 
 					<view class="HJ-list-item ">
+          <view class="HJ-item-hd ">
+            <view class="HJ-item-hd-left">
+              	<text class="HJ-cell-txt-left fc-yellow">来源：上门收货</text>
+            </view>
+            </view>
 						<view class="HJ-item-hd border-b-gray">
 							<view class="HJ-item-hd-left">
 								<view class="HJ-cell-left">

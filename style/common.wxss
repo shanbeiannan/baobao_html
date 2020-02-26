@@ -44,7 +44,13 @@
 .fz-20 {
   font-size: 40rpx;
 }
+.fc-blue{
+  color: #4e7bff !important;
 
+}
+.fc-yellow{
+  color: #fec244 !important;
+}
 .fc-green{
   color:#21c179 !important;
 }
